@@ -15,11 +15,11 @@ http://extension.illinois.edu/veggies/ - general to refer
 Fruit Lists:
 
 
-Grape - Done
+Grape - created - Done
 Grapefruit (pink) 
-Apple
-Avocado
-Banana
+Apple - created - 
+Avocado - created
+Banana - created
 Blackberry
 Blueberry
 Cantaloupe
