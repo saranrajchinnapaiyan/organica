@@ -112,6 +112,9 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.hide{
+    display: none !important;
+}
 .hidden {
     opacity: 0;
 }
@@ -1371,6 +1374,8 @@ h5 {
             }
         }
         .article-section{
+            max-height: 850px;
+            overflow-y: auto;
             h2.header{
                 @extend .txt-left;
                 background: none;

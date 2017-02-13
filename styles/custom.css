@@ -108,6 +108,9 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.hide {
+  display: none !important; }
+
 .hidden {
   opacity: 0; }
 
@@ -1219,8 +1222,11 @@ h5 {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 .grape .detailed_article .article-img img {
   width: 99%; }
-.grape .detailed_article .article-section h2.header {
-  background: none; }
+.grape .detailed_article .article-section {
+  max-height: 850px;
+  overflow-y: auto; }
+  .grape .detailed_article .article-section h2.header {
+    background: none; }
 
 .contact-us .contact-bg {
   background: url("../images/contactus_bg.jpg") repeat; }

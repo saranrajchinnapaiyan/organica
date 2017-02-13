@@ -43,6 +43,11 @@ $(document).ready(function(){
         var li = ele;
         $(li).removeClass('article slide_' + index).addClass('article slide_' + index);
     });
+
+    $('.article-preview').find('.col-lg-6').each(function(index, dom){
+        var self = this;
+        $(dom).removeClass('preview_article_'+ index ).addClass('preview_article_' + index);
+    })
    
     
     //Fb Share articles goes here
