@@ -1,0 +1,436 @@
+[33mcommit db04a31503e843b3991e77d518fed2c64244aa27[m
+Author: saranraj-c <saran.c@tavant.com>
+Date:   Mon Feb 13 19:52:54 2017 +0530
+
+    detailed articles for individual fruit been added
+
+[1mdiff --git a/Images to Resize/apple main article.jpg b/Images to Resize/apple main article.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b8ee1ab[m
+Binary files /dev/null and b/Images to Resize/apple main article.jpg differ
+[1mdiff --git a/Images to Resize/flexlslider_thumb_business.jpg b/Images to Resize/flexlslider_thumb_business.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d49a209[m
+Binary files /dev/null and b/Images to Resize/flexlslider_thumb_business.jpg differ
+[1mdiff --git a/Images to Resize/flexlslider_thumb_travel.jpg b/Images to Resize/flexlslider_thumb_travel.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..60ec2a8[m
+Binary files /dev/null and b/Images to Resize/flexlslider_thumb_travel.jpg differ
+[1mdiff --git a/New Text Document.txt b/New Text Document.txt[m
+[1mindex 308a0d4..34b71b8 100644[m
+[1m--- a/New Text Document.txt[m	
+[1m+++ b/New Text Document.txt[m	
+[36m@@ -12,8 +12,10 @@[m [mhttp://www.livestrong.com/article/205173-examples-of-organic-food-products/[m
+ [m
+ http://extension.illinois.edu/veggies/ - general to refer[m
+ [m
+[31m-Fruit Lists:[m
+[32m+[m[32mNutrition Facts List : -> https://authoritynutrition.com/foods/apples/[m
+[32m+[m[32mfruit details -> http://www.nutrition-and-you.com/[m
+ [m
+[32m+[m[32mFruit Lists:[m
+ [m
+ Grape - created - Done[m
+ Grapefruit (pink) [m
+[1mdiff --git a/garden/benifits-of-home-garden.html b/garden/benifits-of-home-garden.html[m
+[1mindex c2b6365..922de22 100644[m
+[1m--- a/garden/benifits-of-home-garden.html[m
+[1m+++ b/garden/benifits-of-home-garden.html[m
+[36m@@ -92,16 +92,16 @@[m
+                                                 <!-- for menus http://www.livestrong.com/article/205173-examples-of-organic-food-products/                                                -->[m
+                                                 <ul class="nav navbar-nav navbar-right">[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[31m-                                                        <ul class="dropdown-menu start-left" id="" role="menu">[m
+[31m-                                                            <li><a href="#">How to Start a Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Importance of Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Benifits of Home Gardening</a></li>[m
+[31m-                                                            <li><a href="#">Tips</a></li>                                                            [m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[32m+[m[32m                                                         <ul class="dropdown-menu start-left" id="" role="menu">[m
+[32m+[m[32m                                                            <li><a href="how-to-start-home-garden.html" title="How to Start a Home Garden" >How to Start a Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="importance-of-home-garden.html" title="Importance of Home Garden" >Importance of Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="benifits-of-home-garden.html" title="Benifits of Home Gardening" >Benifits of Home Gardening</a></li>[m
+[32m+[m[32m                                                            <li><a href="tips.html" title="Tips">Tips</a></li>[m[41m                                                            [m
+                                                         </ul>[m
+                                                     </li>[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+                                                             <ul class="dropdown-menu start-left" role="menu">[m
+                                                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Healthiest Fruits <span class="fa fa-angle-right"></span></a>[m
+                                                                     <ul class="dropdown-menu show-left" role="menu">[m
+[1mdiff --git a/garden/how-to-start-home-garden.html b/garden/how-to-start-home-garden.html[m
+[1mindex c2b6365..c3400dc 100644[m
+[1m--- a/garden/how-to-start-home-garden.html[m
+[1m+++ b/garden/how-to-start-home-garden.html[m
+[36m@@ -92,16 +92,16 @@[m
+                                                 <!-- for menus http://www.livestrong.com/article/205173-examples-of-organic-food-products/                                                -->[m
+                                                 <ul class="nav navbar-nav navbar-right">[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+                                                         <ul class="dropdown-menu start-left" id="" role="menu">[m
+[31m-                                                            <li><a href="#">How to Start a Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Importance of Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Benifits of Home Gardening</a></li>[m
+[31m-                                                            <li><a href="#">Tips</a></li>                                                            [m
+[32m+[m[32m                                                            <li><a href="how-to-start-home-garden.html" title="How to Start a Home Garden" >How to Start a Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="importance-of-home-garden.html" title="Importance of Home Garden" >Importance of Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="benifits-of-home-garden.html" title="Benifits of Home Gardening" >Benifits of Home Gardening</a></li>[m
+[32m+[m[32m                                                            <li><a href="tips.html" title="Tips">Tips</a></li>[m[41m                                                            [m
+                                                         </ul>[m
+                                                     </li>[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+                                                             <ul class="dropdown-menu start-left" role="menu">[m
+                                                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Healthiest Fruits <span class="fa fa-angle-right"></span></a>[m
+                                                                     <ul class="dropdown-menu show-left" role="menu">[m
+[1mdiff --git a/garden/importance-of-home-garden.html b/garden/importance-of-home-garden.html[m
+[1mindex c2b6365..922de22 100644[m
+[1m--- a/garden/importance-of-home-garden.html[m
+[1m+++ b/garden/importance-of-home-garden.html[m
+[36m@@ -92,16 +92,16 @@[m
+                                                 <!-- for menus http://www.livestrong.com/article/205173-examples-of-organic-food-products/                                                -->[m
+                                                 <ul class="nav navbar-nav navbar-right">[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[31m-                                                        <ul class="dropdown-menu start-left" id="" role="menu">[m
+[31m-                                                            <li><a href="#">How to Start a Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Importance of Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Benifits of Home Gardening</a></li>[m
+[31m-                                                            <li><a href="#">Tips</a></li>                                                            [m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[32m+[m[32m                                                         <ul class="dropdown-menu start-left" id="" role="menu">[m
+[32m+[m[32m                                                            <li><a href="how-to-start-home-garden.html" title="How to Start a Home Garden" >How to Start a Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="importance-of-home-garden.html" title="Importance of Home Garden" >Importance of Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="benifits-of-home-garden.html" title="Benifits of Home Gardening" >Benifits of Home Gardening</a></li>[m
+[32m+[m[32m                                                            <li><a href="tips.html" title="Tips">Tips</a></li>[m[41m                                                            [m
+                                                         </ul>[m
+                                                     </li>[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+                                                             <ul class="dropdown-menu start-left" role="menu">[m
+                                                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Healthiest Fruits <span class="fa fa-angle-right"></span></a>[m
+                                                                     <ul class="dropdown-menu show-left" role="menu">[m
+[1mdiff --git a/garden/tips.html b/garden/tips.html[m
+[1mindex c2b6365..a23f103 100644[m
+[1m--- a/garden/tips.html[m
+[1m+++ b/garden/tips.html[m
+[36m@@ -92,35 +92,35 @@[m
+                                                 <!-- for menus http://www.livestrong.com/article/205173-examples-of-organic-food-products/                                                -->[m
+                                                 <ul class="nav navbar-nav navbar-right">[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>[m
+                                                         <ul class="dropdown-menu start-left" id="" role="menu">[m
+[31m-                                                            <li><a href="#">How to Start a Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Importance of Home Garden</a></li>[m
+[31m-                                                            <li><a href="#">Benifits of Home Gardening</a></li>[m
+[31m-                                                            <li><a href="#">Tips</a></li>                                                            [m
+[32m+[m[32m                                                            <li><a href="how-to-start-home-garden.html" title="How to Start a Home Garden" >How to Start a Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="importance-of-home-garden.html" title="Importance of Home Garden" >Importance of Home Garden</a></li>[m
+[32m+[m[32m                                                            <li><a href="benifits-of-home-garden.html" title="Benifits of Home Gardening" >Benifits of Home Gardening</a></li>[m
+[32m+[m[32m                                                            <li><a href="tips.html" title="Tips">Tips</a></li>[m[41m                                                            [m
+                                                         </ul>[m
+                                                     </li>[m
+                                                     <li class="dropdown has-submenu">[m
+[31m-                                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+[32m+[m[32m                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Health & Well being <span class="fa fa-angle-down"></span></a>[m
+                                                             <ul class="dropdown-menu start-left" role="menu">[m
+                                                                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Healthiest Fruits <span class="fa fa-angle-right"></span></a>[m
+                                                                     <ul class="dropdown-menu show-left" role="menu">[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-blueberry.html" title="what-are-the-health-benefits-of-blueberry">Blueberry</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-cherry.html" title="what-are-the-health-benefits-of-cherry">Cherry</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-cranberry.html" title="what-are-the-health-benefits-of-cranberry">Cranberry</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-fig.html" title="what-are-the-health-benefits-of-fig">Fig (dried)</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-kiwifruit.html" title="what-are-the-health-benefits-of-kiwifruit">Kiwifruit</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-mango.html" title="what-are-the-health-benefits-of-mango">Mango</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-orange.html" title="what-are-the-health-benefits-of-orange">Orange</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-raspberry.html" title="what-are-the-health-benefits-of-raspberry">Raspberry</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-strawberry.html" title="what-are-the-health-benefits-of-strawberry">Strawberry</a></li>[m
+[31m-                                                                        <li><a href="what-are-the-health-benefits-of-watermelon.html" title="what-are-the-health-benefits-of-watermelon">Watermelon</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-blueberry.html" title="what-are-the-health-benefits-of-blueberry">Blueberry</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-cherry.html" title="what-are-the-health-benefits-of-cherry">Cherry</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-cranberry.html" title="what-are-the-health-benefits-of-cranberry">Cranberry</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-fig.html" title="what-are-the-health-benefits-of-fig">Fig (dried)</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-kiwifruit.html" title="what-are-the-health-benefits-of-kiwifruit">Kiwifruit</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-mango.html" title="what-are-the-health-benefits-of-mango">Mango</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-orange.html" title="what-are-the-health-benefits-of-orange">Orange</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-raspberry.html" title="what-are-the-health-benefits-of-raspberry">Raspberry</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-strawberry.html" title="what-are-the-health-benefits-of-strawberry">Strawberry</a></li>[m
+[32m+[m[32m                                                                        <li><a href="../health-wellbeing/what-are-the-health-benefits-of-watermelon.html" title="what-are-the-health-benefits-of-watermelon">Watermelon</a></li>[m
+                                                                     </ul>[m
+                                                                 </li>[m
+[31m-                                                                <li><a href="what-are-the-health-benefits-of-apple.html" title="what-are-the-health-benefits-of-apple">Apple</a></li>[m
+[31m-                                                                <li><a href="what-are-the-health-benefits-of-avocado.html" title="what-are-the-health-benefits-of-avocado">Avocado</a></li>[m
+[31m-                                                                <li><a href="what-are-the-health-benefits-of-black-seedless-grapes.html" title="what-are-the-health-benefits-of-black-seedless-grapes">Black Grapes</a></li>[m
+[31m-                                                                <li><a href="what-are-the-health-benefits-of-gojiberry.html" title="what-are-the-health-benefits-of-gojiberry">Goji berry</a></li>                                                           [m
+[32m+[m[32m                                                                <li><a href="../health-wellbeing/what-are-the-health-benefits-of-apple.html" title="what-are-the-health-benefits-of-apple">Apple</a></li>[m
+[32m+[m[32m                                                                <li><a href="../health-wellbeing/what-are-the-health-benefits-of-avocado.html" title="what-are-the-health-benefits-of-avocado">Avocado</a></li>[m
+[32m+[m[32m                                                                <li><a href="../health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html" title="what-are-the-health-benefits-of-black-seedless-grapes">Black Grapes</a></li>[m
+[32m+[m[32m                                                                <li><a href="../health-wellbeing/what-are-the-health-benefits-of-gojiberry.html" title="what-are-the-health-benefits-of-gojiberry">Goji berry</a></li>[m[41m                                                           [m
+                                                             </ul>[m
+                                                     </li>[m
+                                                     <li class="dropdown has-submenu">[m
+[1mdiff --git a/health-wellbeing/what-are-the-health-benefits-of-apple.html b/health-wellbeing/what-are-the-health-benefits-of-apple.html[m
+[1mindex c369c65..935d8a2 100644[m
+[1m--- a/health-wellbeing/what-are-the-health-benefits-of-apple.html[m
+[1m+++ b/health-wellbeing/what-are-the-health-benefits-of-apple.html[m
+[36m@@ -327,7 +327,7 @@[m
+             <section class="col-lg-8 col-md-12 col-sm-12 left">[m
+                 <div class="container article-body">[m
+                     <div class="preview thumb-1">[m
+[31m-                        <h1>What Vitamins Do Grapes Contain?</h1>[m
+[32m+[m[32m                        <h1>What Vitamins Do An Apple Contain?</h1>[m
+                         <p>by <i>Admin</i> Last Updated: Oct 21, 2013</p>[m
+                         <div class="article-img">[m
+                             <a href="javascript:void(0)" title="Artcile about Grape">[m
+[36m@@ -340,17 +340,30 @@[m
+                     <!-- sample accordion menu http://demo.siterepo.com/store/css/tabion/demo-3.php -->[m
+                 [m
+                     <div class="article-section">[m
+[31m-                        <h2 class="header">Nutritional value (1/2 cup/ 125 mL): <span> 53 calories, less than 1 g fibre, source of manganese.</span></h2>[m
+[31m-                        <h2 class="header">Vitamin K</h2>[m
+[31m-                        <p class="article-content txt-left">Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance; for a woman, a cup of grapes fulfills 24 percent of her vitamin K requirement per day. Your body needs adequate vitamin K to build strong bones and to synthesize several of the proteins required for blood coagulation. If your diet lacks foods rich in vitamin K, you may be more likely to develop osteoporosis or bleed too much when injured.</p>[m
+[31m-                        <h3>Calorie Content</h3>[m
+[31m-                        <p>Fresh black grapes are low in calories, with a 1-cup serving containing only 62 calories and less than 1/2 gram of total fat. While you can eat the grapes whole and raw, making a fresh juice from them by blending 1 cup of grapes with 1/2 cup of fresh water will give you 1 cup of fresh juice that is lower in calories than a commercially produced grape juice, even if unsweetened. One cup of commercial grape juice has 152 calories per serving and also less than 1/2 gram of total fat. Substituting whole grapes or fresh grape juice for a 12-ounce can of grape soda once a week can reduce your caloric intake by over 5,000 calories, or roughly 1.5 pounds of body weight, in the space of one year.</p>[m
+[31m-                        <h3>Dietary Fiber Content</h3>[m
+[31m-                        <p>Black grapes are a good source of dietary fiber, which gives bulk to your diet, helping you eat less.Dietary fiber can also help reduce the symptoms of constipation as well as lower your blood cholesterol levels. A serving of black grapes has 0.8 gram of dietary fiber, a high amount for the small serving size. This provides 2 to 3 percent of the recommended dietary intake and can help you meet the daily recommendation, which is important as most Americans have a diet that is too low in fiber.</p>[m
+[31m-                        <h3>Sugar Content</h3>[m
+[31m-                        <p>Black grapes are naturally sweet, with almost 15 grams per cup. The American Heart Association recommends you choose natural sugars, such as those found in grapes, over added sugars because natural sugars have greater nutritive impact. Because of their natural sweetness, you can use grapes as a healthy way to satisfy a sweet tooth or sugar craving. In addition to eating them fresh, you can also freeze grapes and eat them as a refreshing, low-calorie and sweet dessert, substituting them for other foods, such as ice cream or cake, that are often high in added sugar.</p>[m
+[31m-                        <h3>Antioxidants and Fruit Intake</h3>[m
+[31m-                        <p>The U.S. Department of Agriculture recommends eating between 1 1/2 and 2 cups of fruit each day as part of a balanced diet, which is important for healthy weight loss. Black grapes are also a rich source of the natural antioxidant resveratrol, a type of flavonoid. In 2011, the "Annals of the New York Academy of Sciences" published a report that stated that diets high in resveratrol led to overall reduced body fat levels as well as a decrease in overall weight gain.</p>[m
+[32m+[m
+[32m+[m[32m                        <h2 class="header">Nutritional value (single medium Apple): <span> 95 calories, 4 g fibre, Manganese, copper and vitamins A, E, B1, B2 and B6.</span></h2>[m
+[32m+[m[32m                        <h3>Below are some nutrition facts for a medium Apple</h3>[m
+[32m+[m[32m                            <ul class="compact">[m
+[32m+[m[32m                                <li><strong>Calories:</strong> 95.</li>[m
+[32m+[m[32m                                <li><strong>Carbs:</strong> 25 grams.</li>[m
+[32m+[m[32m                                <li><strong>Fiber:</strong> 4 grams.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin C:</strong> 14% of the RDI.</li>[m
+[32m+[m[32m                                <li><strong>Potassium:</strong> 6% of the RDI.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin K:</strong> 5% of the RDI.</li>[m
+[32m+[m[32m                                <li><strong>Manganese, copper and vitamins A, E, B1, B2 and B6:</strong> Under 4% of the RDI.</li>[m
+[32m+[m[32m                            </ul>[m
+[32m+[m[32m                        <h2 class="header">Get whiter, healthier teeth</h2>[m[41m                        [m
+[32m+[m[32m                        <p class="article-content txt-left">An apple won’t replace your toothbrush, but biting and chewing an apple stimulates the production of saliva in your mouth, reducing tooth decay by lowering the levels of bacteria.</p>[m
+[32m+[m[32m                        <h3>Protect against Parkinson’s</h3>[m
+[32m+[m[32m                        <p>Research has shown that people who eat fruits and other high-fibre foods gain a certain amount of protection against Parkinson’s, a disease characterized by a breakdown of the brain’s dopamine-producing nerve cells. Scientists have linked this to the free radical-fighting power of the antioxidants contained therein.</p>[m
+[32m+[m[32m                        <h3>Curb all sorts of cancers</h3>[m
+[32m+[m[32m                        <p>Scientists from the American Association for Cancer Research, among others, agree that the consumption of flavonol-rich apples could help reduce your risk of developing pancreatic cancer by up to 23 per cent. Researchers at Cornell University have identified several compounds – triterpenoids – in apple peel that have potent anti-growth activities against cancer cells in the liver, colon and breast. Their earlier research found that extracts from whole apples can reduce the number and size of mammary tumours in rats. Meanwhile, the National Cancer Institute in the U.S. has recommended a high fibre intake to reduce the risk of colorectal cancer.</p>[m
+[32m+[m[32m                        <h3>Decrease your risk of diabetes</h3>[m
+[32m+[m[32m                        <p>Women who eat at least one apple a day are 28 percent less likely to develop type 2 diabetes than those who don’t eat apples. Apples are loaded with soluble fibre, the key to blunting blood sugar swings.</p>[m
+[32m+[m[32m                        <h3>Get a healthier heart</h3>[m
+[32m+[m[32m                        <p>An extensive body of research has linked high soluble fibre intake with a slower buildup of cholesterol-rich plaque in your arteries. The phenolic compound found in apple skins also prevents the cholesterol that gets into your system from solidifying on your artery walls. When plaque builds inside your arteries, it reduces blood flow to your heart, leading to coronary artery disease.</p>[m
+[32m+[m[32m                        <h3>Control your weight</h3>[m
+[32m+[m[32m                        <p>Many health problems are associated with being overweight, among them heart disease, stroke, high blood pressure, type 2 diabetes and sleep apnea. To manage your weight and improve your overall health, doctors recommend a diet rich in fibre. Foods high in fibre will fill you up without costing you too many calories.</p>[m
+                     </div>[m
+                 </div>[m
+             </section>[m
+[36m@@ -475,6 +488,7 @@[m
+     <footer class="footer">[m
+         <div class="copyright padd15">[m
+             <i class="fa fa-copyright"></i> Domain.com 2017 All rights reserved.[m
+[32m+[m[32m            <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span>[m
+         </div>[m
+     </footer>[m
+     <!-- JavaScript -->[m
+[1mdiff --git a/health-wellbeing/what-are-the-health-benefits-of-avocado.html b/health-wellbeing/what-are-the-health-benefits-of-avocado.html[m
+[1mindex ad8052a..e218df5 100644[m
+[1m--- a/health-wellbeing/what-are-the-health-benefits-of-avocado.html[m
+[1m+++ b/health-wellbeing/what-are-the-health-benefits-of-avocado.html[m
+[36m@@ -327,10 +327,10 @@[m
+             <section class="col-lg-8 col-md-12 col-sm-12 left">[m
+                 <div class="container article-body">[m
+                     <div class="preview thumb-1">[m
+[31m-                        <h1>What Vitamins Do Grapes Contain?</h1>[m
+[32m+[m[32m                        <h1>What Vitamins Do some Avocado's Contain?</h1>[m
+                         <p>by <i>Admin</i> Last Updated: Oct 21, 2013</p>[m
+                         <div class="article-img">[m
+[31m-                            <a href="javascript:void(0)" title="Artcile about Grape">[m
+[32m+[m[32m                            <a href="javascript:void(0)" title="Artcile about Avocado">[m
+                                 <img src="../images/grape-detailed-article-banner.jpg" alt="Previre Thumbnail 1" />[m
+                             </a>[m
+                         </div>[m
+[36m@@ -340,17 +340,34 @@[m
+                     <!-- sample accordion menu http://demo.siterepo.com/store/css/tabion/demo-3.php -->[m
+                 [m
+                     <div class="article-section">[m
+[31m-                        <h2 class="header">Nutritional value (1/2 cup/ 125 mL): <span> 53 calories, less than 1 g fibre, source of manganese.</span></h2>[m
+[31m-                        <h2 class="header">Vitamin K</h2>[m
+[31m-                        <p class="article-content txt-left">Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance; for a woman, a cup of grapes fulfills 24 percent of her vitamin K requirement per day. Your body needs adequate vitamin K to build strong bones and to synthesize several of the proteins required for blood coagulation. If your diet lacks foods rich in vitamin K, you may be more likely to develop osteoporosis or bleed too much when injured.</p>[m
+[31m-                        <h3>Calorie Content</h3>[m
+[31m-                        <p>Fresh black grapes are low in calories, with a 1-cup serving containing only 62 calories and less than 1/2 gram of total fat. While you can eat the grapes whole and raw, making a fresh juice from them by blending 1 cup of grapes with 1/2 cup of fresh water will give you 1 cup of fresh juice that is lower in calories than a commercially produced grape juice, even if unsweetened. One cup of commercial grape juice has 152 calories per serving and also less than 1/2 gram of total fat. Substituting whole grapes or fresh grape juice for a 12-ounce can of grape soda once a week can reduce your caloric intake by over 5,000 calories, or roughly 1.5 pounds of body weight, in the space of one year.</p>[m
+[31m-                        <h3>Dietary Fiber Content</h3>[m
+[31m-                        <p>Black grapes are a good source of dietary fiber, which gives bulk to your diet, helping you eat less.Dietary fiber can also help reduce the symptoms of constipation as well as lower your blood cholesterol levels. A serving of black grapes has 0.8 gram of dietary fiber, a high amount for the small serving size. This provides 2 to 3 percent of the recommended dietary intake and can help you meet the daily recommendation, which is important as most Americans have a diet that is too low in fiber.</p>[m
+[31m-                        <h3>Sugar Content</h3>[m
+[31m-                        <p>Black grapes are naturally sweet, with almost 15 grams per cup. The American Heart Association recommends you choose natural sugars, such as those found in grapes, over added sugars because natural sugars have greater nutritive impact. Because of their natural sweetness, you can use grapes as a healthy way to satisfy a sweet tooth or sugar craving. In addition to eating them fresh, you can also freeze grapes and eat them as a refreshing, low-calorie and sweet dessert, substituting them for other foods, such as ice cream or cake, that are often high in added sugar.</p>[m
+[31m-                        <h3>Antioxidants and Fruit Intake</h3>[m
+[31m-                        <p>The U.S. Department of Agriculture recommends eating between 1 1/2 and 2 cups of fruit each day as part of a balanced diet, which is important for healthy weight loss. Black grapes are also a rich source of the natural antioxidant resveratrol, a type of flavonoid. In 2011, the "Annals of the New York Academy of Sciences" published a report that stated that diets high in resveratrol led to overall reduced body fat levels as well as a decrease in overall weight gain.</p>[m
+[32m+[m[41m                        [m
+[32m+[m[32m                        <h2 class="header">Nutritional value in single 3.5 ounce (100 gram) : <span> 160 calories, less than 15 g of healthy fats, source of Potassium.</span></h2>[m[41m                        [m
+[32m+[m[32m                        <h2>Below are some nutrition facts</h2>[m
+[32m+[m[32m                            <ul class="compact">[m
+[32m+[m[32m                                <li><strong>Vitamin K:</strong> 26% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Folate:</strong> 20% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin C:</strong> 17% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Potassium:</strong> 14% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin B5:</strong> 14% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin B6:</strong> 13% of the RDA.</li>[m
+[32m+[m[32m                                <li><strong>Vitamin E:</strong> 10% of the RDA.</li>[m
+[32m+[m[32m                                <li>Then it contains small amounts of Magnesium, Manganese, Copper, Iron, Zinc, Phosphorous, Vitamin A, B1 (Thiamine), B2 (Riboflavin) and B3 (Niacin).</li>[m
+[32m+[m[32m                            </ul>[m
+[32m+[m[32m                        <h3>Contain More Potassium Than Bananas</h3>[m
+[32m+[m[32m                        <p>Potassium is a nutrient that most people aren’t getting enough of. This nutrient helps maintain electrical gradients in the body’s cells and serves various important functions.</p>[m
+[32m+[m[32m                        <p>Avocados are actually very high in potassium… with a 100 gram (3.5 ounce) serving containing 14% of the RDA, compared to 10% in bananas, which are a typical high potassium food </p>[m
+[32m+[m[32m                        <h3>Loaded With Heart-Healthy Monounsaturated Fatty Acids</h3>[m
+[32m+[m[32m                        <p>In fact, 77% of the calories in it are from fat, making it one of the fattiest plant foods in existence. But they don’t just contain any fat… the majority of the fat in avocado is oleic acid.</p>[m
+[32m+[m[32m                        <p>This is a monounsaturated fatty acid that is also the major component in olive oil and believed to be responsible for some of its beneficial effects.</p>[m
+[32m+[m[32m                        <p>The fats in avocado are also pretty resistant to heat-induced oxidation, making avocado oil a healthy and safe choice for cooking.</p>[m
+[32m+[m[32m                        <h3>Can Lower Cholesterol and Triglyceride Levels</h3>[m
+[32m+[m[32m                        <p>Heart disease is the most common cause of death in the world. It is known that several blood markers are linked to an increased risk.</p>[m
+[32m+[m[32m                        <p>This includes cholesterol, triglycerides, inflammatory markers, blood pressure and various others. The effects of avocado on some of these risk factors has been studied in 8 human controlled trials.[m
+[32m+[m[32m                        These are studies where people are split into groups… one group is instructed to eat avocados, while the other is not. Then researchers see what happens to their blood markers over time.</p>[m
+[32m+[m[32m                        <h3>May Help Prevent Cancer</h3>[m
+[32m+[m[32m                        <p>There is limited evidence that avocado may be beneficial in preventing cancer. One study showed that it may help reduce side effects of chemotherapy in human lymphocytes. Avocado extract has also been shown to inhibit the growth of prostate cancer cells.[m
+[32m+[m[32m                        However, keep in mind that these studies were done in isolated cells and don’t really prove anything about what happens in a living, breathing human.</p>[m
+[32m+[m[32m                        <p>Note : Avocados tend to be high in fiber, about 7% by weight, which is very high compared to most other foods. Fiber can have various important benefits for weight loss and metabolic health.</p>[m
+                     </div>[m
+                 </div>[m
+             </section>[m
+[36m@@ -475,6 +492,7 @@[m
+     <footer class="footer">[m
+         <div class="copyright padd15">[m
+             <i class="fa fa-copyright"></i> Domain.com 2017 All rights reserved.[m
+[32m+[m[32m            <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span>[m
+         </div>[m
+     </footer>[m
+     <!-- JavaScript -->[m
+[1mdiff --git a/health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html b/health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html[m
+[1mindex b1ad34a..6fb0ba0 100644[m
+[1m--- a/health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html[m
+[1m+++ b/health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html[m
+[36m@@ -475,6 +475,7 @@[m
+     <footer class="footer">[m
+         <div class="copyright padd15">[m
+             <i class="fa fa-copyright"></i> Domain.com 2017 All rights reserved.[m
+[32m+[m[32m            <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span>[m
+         </div>[m
+     </footer>[m
+     <!-- JavaScript -->[m
+[1mdiff --git a/health-wellbeing/what-are-the-health-benefits-of-blueberry.html b/health-wellbeing/what-are-the-health-benefits-of-blueberry.html[m
+[1mindex c88cc35..2dc8756 100644[m
+[1m--- a/health-wellbeing/what-are-the-health-benefits-of-blueberry.html[m
+[1m+++ b/health-wellbeing/what-are-the-health-benefits-of-blueberry.html[m
+[36m@@ -327,7 +327,7 @@[m
+             <section class="col-lg-8 col-md-12 col-sm-12 left">[m
+                 <div class="container article-body">[m
+                     <div class="preview thumb-1">[m
+[31m-                        <h1>What Vitamins Do Grapes Contain?</h1>[m
+[32m+[m[32m                        <h1>What Vitamins Do Some Blue Berry Contain?</h1>[m
+                         <p>by <i>Admin</i> Last Updated: Oct 21, 2013</p>[m
+                         <div class="article-img">[m
+                             <a href="javascript:void(0)" title="Artcile about Grape">[m
+[36m@@ -340,17 +340,32 @@[m
+                     <!-- sample accordion menu http://demo.siterepo.com/store/css/tabion/demo-3.php -->[m
+                 [m
+                     <div class="article-section">[m
+[31m-                        <h2 class="header">Nutritional value (1/2 cup/ 125 mL): <span> 53 calories, less than 1 g fibre, source of manganese.</span></h2>[m
+[31m-                        <h2 class="header">Vitamin K</h2>[m
+[31m-                        <p class="article-content txt-left">Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance; for a woman, a cup of grapes fulfills 24 percent of her vitamin K requirement per day. Your body needs adequate vitamin K to build strong bones and to synthesize several of the proteins required for blood coagulation. If your diet lacks foods rich in vitamin K, you may be more likely to develop osteoporosis or bleed too much when injured.</p>[m
+[31m-                        <h3>Calorie Content</h3>[m
+[31m-                        <p>Fresh black grapes are low in calories, with a 1-cup serving containing only 62 calories and less than 1/2 gram of total fat. While you can eat the grapes whole and raw, making a fresh juice from them by blending 1 cup of grapes with 1/2 cup of fresh water will give you 1 cup of fresh juice that is lower in calories than a commercially produced grape juice, even if unsweetened. One cup of commercial grape juice has 152 calories per serving and also less than 1/2 gram of total fat. Substituting whole grapes or fresh grape juice for a 12-ounce can of grape soda once a week can reduce your caloric intake by over 5,000 calories, or roughly 1.5 pounds of body weight, in the space of one year.</p>[m
+[31m-                        <h3>Dietary Fiber Content</h3>[m
+[31m-                        <p>Black grapes are a good source of dietary fiber, which gives bulk to your diet, helping you eat less.Dietary fiber can also help reduce the symptoms of constipation as well as lower your blood cholesterol levels. A serving of black grapes has 0.8 gram of dietary fiber, a high amount for the small serving size. This provides 2 to 3 percent of the recommended dietary intake and can help you meet the daily recommendation, which is important as most Americans have a diet that is too low in fiber.</p>[m
+[31m-                        <h3>Sugar Content</h3>[m
+[31m-                        <p>Black grapes are naturally sweet, with almost 15 grams per cup. The American Heart Association recommends you choose natural sugars, such as those found in grapes, over added sugars because natural sugars have greater nutritive impact. Because of their natural sweetness, you can use grapes as a healthy way to satisfy a sweet tooth or sugar craving. In addition to eating them fresh, you can also freeze grapes and eat them as a refreshing, low-calorie and sweet dessert, substituting them for other foods, such as ice cream or cake, that are often high in added sugar.</p>[m
+[31m-                        <h3>Antioxidants and Fruit Intake</h3>[m
+[31m-                        <p>The U.S. Department of Agriculture recommends eating between 1 1/2 and 2 cups of fruit each day as part of a balanced diet, which is important for healthy weight loss. Black grapes are also a rich source of the natural antioxidant resveratrol, a type of flavonoid. In 2011, the "Annals of the New York Academy of Sciences" published a report that stated that diets high in resveratrol led to overall reduced body fat levels as well as a decrease in overall weight gain.</p>[m
+[32m+[m[32m                        <h2 class="header">Nutritional value (1 cup/ 148 gm): <span> 84 calories, 4g fibre, source of manganese 25%.</span></h2>[m
+[32m+[m[32m                        <h3>Below are some nutrition facts for 1 cup of Blue Berry's</h3>[m
+[32m+[m[32m                        <ul class="compact">[m
+[32m+[m[32m                            <li><strong>Fiber:</strong> 4 grams.</li>[m
+[32m+[m[32m                            <li><strong>Vitamin C:</strong> 24% of the RDA.</li>[m
+[32m+[m[32m                            <li><strong>Vitamin K:</strong> 36% of the RDA.</li>[m
+[32m+[m[32m                            <li><strong>Manganese:</strong> 25% of the RDA.</li>[m
+[32m+[m[32m                            <li>Then it contains small amounts of various other nutrients.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m
+[32m+[m[32m                        <h2 class="header"><b>Low</b> in Calories, But <b>High</b> in Nutrients</h2>[m
+[32m+[m[32m                        <p class="article-content txt-left">The blueberry is a flowering shrub that produces berries that are colored blue to purple, also known as blueberries.[m
+[32m+[m[32m                            It is strongly related to similar shrubs, such as those that produce cranberries and huckleberries. Blueberries are small, around 5-16 millimeters (0.2-0.6 inches) in diameter, and have a flared crown at the end.</p>[m
+[32m+[m
+[32m+[m[32m                        <h3>King of Antioxidant Foods</h3>[m
+[32m+[m[32m                        <p><b>Antioxidants</b> are important.</p>[m
+[32m+[m[32m                        <p>They protect our bodies from damage by free radicals, unstable molecules that can damage cellular structures and contribute to aging and diseases like cancer.[m
+[32m+[m[32m                        Blueberries are believed to contain the highest antioxidant capacity of ALL commonly consumed fruits and vegetables.</p>[m
+[32m+[m[32m                        <h3>Protect Against Ageing and Cancer</h3>[m
+[32m+[m[32m                        <p>DNA damage is part of the reason we grow older, and it also plays an important role in the development of diseases like cancer. Because blueberries are high in antioxidants, they can help neutralize some of the free radicals that cause damage to our DNA.</p>[m
+[32m+[m[32m                        <p>In one 4-week study, 168 participants were instructed to drink 1 liter (34 ounces) of a mixture of blueberry and apple juice, every day. At the end of the study, oxidative DNA damage due to free radicals was reduced by 20%. These findings have also been supported by smaller studies using either fresh or powdered blueberries (13, 14).</p>[m
+[32m+[m[32m                        <h3>Lower Blood Pressure, Prevent Heart Disease</h3>[m
+[32m+[m[32m                        <p>Again, eating blueberries may lower blood pressure and oxidized LDL. In a 2013 study on 93,600 nurses, eating plenty of anthocyanins (the main antioxidants in blueberries) was linked to a 32% lower risk of heart attacks.</p>[m
+[32m+[m[32m                        <h3>Can Help Maintain Brain Function</h3>[m
+[32m+[m[32m                        <p>Oxidative stress can accelerate the brain’s aging process, having negative effects on brain function.[m
+[32m+[m[32m                            According to animal studies, the antioxidants in blueberries tend to accumulate in areas of the brain that are essential for intelligence. They appear to directly interact with aging neurons, leading to improvements in cell signalling.</p>[m
+                     </div>[m
+                 </div>[m
+             </section>[m
+[36m@@ -475,6 +490,7 @@[m
+     <footer class="footer">[m
+         <div class="copyright padd15">[m
+             <i class="fa fa-copyright"></i> Domain.com 2017 All rights reserved.[m
+[32m+[m[32m            <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span>[m
+         </div>[m
+     </footer>[m
+     <!-- JavaScript -->[m
+[1mdiff --git a/health-wellbeing/what-are-the-health-benefits-of-cherry.html b/health-wellbeing/what-are-the-health-benefits-of-cherry.html[m
+[1mindex 575087b..e7868d3 100644[m
+[1m--- a/health-wellbeing/what-are-the-health-benefits-of-cherry.html[m
+[1m+++ b/health-wellbeing/what-are-the-health-benefits-of-cherry.html[m
+[36m@@ -327,7 +327,7 @@[m
+             <section class="col-lg-8 col-md-12 col-sm-12 left">[m
+                 <div class="container article-body">[m
+                     <div class="preview thumb-1">[m
+[31m-                        <h1>What Vitamins Do Grapes Contain?</h1>[m
+[32m+[m[32m                        <h1>What Vitamins Do Cherry's Contain?</h1>[m
+                         <p>by <i>Admin</i> Last Updated: Oct 21, 2013</p>[m
+                         <div class="article-img">[m
+                             <a href="javascript:void(0)" title="Artcile about Grape">[m
+[36m@@ -340,17 +340,42 @@[m
+                     <!-- sample accordion menu http://demo.siterepo.com/store/css/tabion/demo-3.php -->[m
+                 [m
+                     <div class="article-section">[m
+[31m-                        <h2 class="header">Nutritional value (1/2 cup/ 125 mL): <span> 53 calories, less than 1 g fibre, source of manganese.</span></h2>[m
+[31m-                        <h2 class="header">Vitamin K</h2>[m
+[31m-                        <p class="article-content txt-left">Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance; for a woman, a cup of grapes fulfills 24 percent of her vitamin K requirement per day. Your body needs adequate vitamin K to build strong bones and to synthesize several of the proteins required for blood coagulation. If your diet lacks foods rich in vitamin K, you may be more likely to develop osteoporosis or bleed too much when injured.</p>[m
+[31m-                        <h3>Calorie Content</h3>[m
+[31m-                        <p>Fresh black grapes are low in calories, with a 1-cup serving containing only 62 calories and less than 1/2 gram of total fat. While you can eat the grapes whole and raw, making a fresh juice from them by blending 1 cup of grapes with 1/2 cup of fresh water will give you 1 cup of fresh juice that is lower in calories than a commercially produced grape juice, even if unsweetened. One cup of commercial grape juice has 152 calories per serving and also less than 1/2 gram of total fat. Substituting whole grapes or fresh grape juice for a 12-ounce can of grape soda once a week can reduce your caloric intake by over 5,000 calories, or roughly 1.5 pounds of body weight, in the space of one year.</p>[m
+[31m-                        <h3>Dietary Fiber Content</h3>[m
+[31m-                        <p>Black grapes are a good source of dietary fiber, which gives bulk to your diet, helping you eat less.Dietary fiber can also help reduce the symptoms of constipation as well as lower your blood cholesterol levels. A serving of black grapes has 0.8 gram of dietary fiber, a high amount for the small serving size. This provides 2 to 3 percent of the recommended dietary intake and can help you meet the daily recommendation, which is important as most Americans have a diet that is too low in fiber.</p>[m
+[31m-                        <h3>Sugar Content</h3>[m
+[31m-                        <p>Black grapes are naturally sweet, with almost 15 grams per cup. The American Heart Association recommends you choose natural sugars, such as those found in grapes, over added sugars because natural sugars have greater nutritive impact. Because of their natural sweetness, you can use grapes as a healthy way to satisfy a sweet tooth or sugar craving. In addition to eating them fresh, you can also freeze grapes and eat them as a refreshing, low-calorie and sweet dessert, substituting them for other foods, such as ice cream or cake, that are often high in added sugar.</p>[m
+[32m+[m[32m                        <h2 class="header">Nutritional value (1 cup/ 100 gm): <span> 46 calories, less than 4.6 g fibre.</span></h2>[m
+[32m+[m[32m                        <h3>Below are some nutrition facts for 1 cup of Cherry's</h3>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>87 calories</li>[m
+[32m+[m[32m                            <li>zero grams fat</li>[m
+[32m+[m[32m                            <li>22 grams carbohydrates</li>[m
+[32m+[m[32m                            <li>3 grams dietary fiber</li>[m
+[32m+[m[32m                            <li>18 grams sugar</li>[m
+[32m+[m[32m                            <li>1 gram protein</li>[m
+[32m+[m[32m                            <li>10 milligrams vitamin C (16 percent DV)</li>[m
+[32m+[m[32m                            <li>2.9 micrograms&nbsp;vitamin K (4 percent)</li>[m
+[32m+[m[32m                            <li>88 international units <strong>vitamin A</strong>(2 percent DV)</li>[m
+[32m+[m[32m                            <li>306 milligrams potassium (9 percent DV)</li>[m
+[32m+[m[32m                            <li>0.1 milligram <strong>manganese</strong> (5 percent DV)</li>[m
+[32m+[m[32m                            <li>0.1 milligram copper (4 percent DV)</li>[m
+[32m+[m[32m                            <li>15.2 milligrams magnesium (4 percent DV)</li>[m
+[32m+[m[32m                            <li>0.1 milligram vitamin B6 (3 percent DV)</li>[m
+[32m+[m[32m                            <li>0.5 milligrams iron (3 percent DV)</li>[m
+[32m+[m[32m                            <li>17.9 milligrams calcium (2 percent DV)</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                        <h2 class="header">Promote Weight Loss</h2>[m
+[32m+[m[32m                        <p class="article-content txt-left">In a 2009 s
