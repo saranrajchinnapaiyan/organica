@@ -47,3 +47,12 @@ Watermelon
 
 <h3></h3>
 <p></p>
+
+recommended Articles 
+
+https://codepen.io/danbhala/pen/eNZrQW/ 
+http://stackoverflow.com/questions/11589816/twitter-bootstrap-carousel-vertical-sliding 
+
+
+i) commit to staging
+ii) open->git cmd in folder -> git push
