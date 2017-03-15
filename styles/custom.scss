@@ -1108,7 +1108,15 @@ h5 {
         .fa-angle-right{
             float: right;
         }
-    }  
+    }
+    .featured-media{
+        a{
+            text-decoration: underline !important;
+        }
+        h3,a{
+            color:#fff;
+        }
+    }
     
 }
   .video-box{

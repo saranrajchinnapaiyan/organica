@@ -1025,6 +1025,10 @@ h5 {
     margin-bottom: 1rem; }
     .single-news a .fa-angle-right {
       float: right; }
+  .single-news .featured-media a {
+    text-decoration: underline !important; }
+  .single-news .featured-media h3, .single-news .featured-media a {
+    color: #fff; }
 
 .video-box figure img {
   width: 100%;
