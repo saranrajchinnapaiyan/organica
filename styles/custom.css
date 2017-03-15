@@ -1004,6 +1004,8 @@ h5 {
       padding-right: 40px; }
   .detailed_article .font-w500, .detailed_article .right .single-news .col-md-9 {
     font-weight: 500; }
+  .detailed_article .right .single-news .news-headlines li {
+    line-height: 20px; }
   .detailed_article .right .single-news date {
     color: #c3c3c3; }
   .detailed_article .right .single-news p {

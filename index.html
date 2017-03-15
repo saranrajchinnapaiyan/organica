@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/settings.css">
     <link rel="stylesheet" href="styles/flexslider.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/vertical.news.slider.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="styles/custom.css">
 </head>
@@ -717,7 +719,7 @@
                     </div>
                 </div>
             </section>
-            <section class="col-lg-4 col-md-4 col-sm-4 right">
+            <section class="col-lg-4 col-md-4 col-sm-4 right ">
                 <h3>Advertisement goes here</h3>
                 <div class="single-news">
                     <div class="row">
@@ -735,99 +737,262 @@
                         </div>
                     </div>
                 </div>
-                <h3>Videos you may like</h3>
-                <div class="single-news video-box">
+
+                <h3>Article's Recommended For you</h3>
+
+                <div class="single-news news-holder cf">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="view no-shadow">
-                                <video controls loop>
-                                    <source src=video/sample_MKJackson.webm type=video/webm>
-                                    <source src=video/sample_MKJackson.ogg type=video/ogg>
-                                    <source src=video/sample_MKJackson.mp4 type=video/mp4>
-                                </video>
-                            </div>
+                            <ul class="news-headlines">
+                              <li class="nh-anim selected">Black grapes are delicious, But did you also know that black grapes are just as healthy...</li>
+                              <li class="nh-anim">An apple won’t replace your toothbrush, but biting and chewing an apple stimulates...</li>
+                              <li class="nh-anim">Avocados are actually very high in potassium… with a 100 gram (3.5 ounce) serving containing 14% of the RDA...</li>
+                              <li class="nh-anim">You might have heard of goji berries and their health benefits. But do they live up these claims...</li>
+                              <li class="nh-anim">The blueberry is a flowering shrub that produces berries that are colored blue to purple known as blueberries...</li>
+                              <li class="nh-anim">In a 2009 study that was published in the Journal of Medical Food...</li>
+                              <li class="nh-anim">Watermelons contain a lot of potassium, which is very helpful in cleaning...</li>
+                              <li class="nh-anim">Oranges are a good source of several vitamins and minerals...</li>
+                              <li class="nh-anim">Let us count the ways strawberries are good for you...</li>
+                           </ul>
                         </div>
-                    </div>
-                </div>
-                <h3>Article's Recommended For you</h3>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="pink-text pull-left"><i class="fa fa-heart"></i>&nbsp;Lifestyle</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
+                        <div class="col-md-6">
+                            <div class="news-preview">
+                                <div class="news-content" id="grapes">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-black-seedless-grapes.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 125 mL): 53 calories, less than 1 g fibre, source of manganese.</a>
+                                      </p>
+                                    <p>Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance.</p>
+                                  </div>
+                                <div class="news-content" id="apple">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-apple.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (single medium Apple): 95 calories, 4 g fibre, Manganese, copper and vitamins A, E, B1, B2 and B6.</a>
+                                      </p>
+                                    <p>An apple won’t replace your toothbrush, but biting and chewing an apple stimulates the production of saliva in your mouth, reducing tooth decay by lowering the levels of bacteria.</p>
+                                  </div>
+                                <div class="news-content" id="avocado">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-avocado.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value in single 3.5 ounce (100 gram) : 160 calories, less than 15 g of healthy fats, source of Potassium.</a>
+                                      </p>
+                                    <p>Avocados are actually very high in potassium… with a 100 gram (3.5 ounce) serving containing 14% of the RDA, compared to 10% in bananas, which are a typical high potassium food.</p>
+                                  </div>
+                                <div class="news-content" id="gojiberry">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-gojiberry.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value : Vitamin C, 8 essential amino acids, source of antioxidants and zinc.</a>
+                                      </p>
+                                    <p>You might have heard of goji berries and their health benefits. But do they live up these claims? Their history as a medicinal plant has roots in ancient China. Many people use goji berries to treat eye, liver, and kidney ailments.</p>
+                                  </div>
+                                <div class="news-content" id="blueberry">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-blueberry.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 148 gm): 84 calories, 4g fibre, source of manganese 25%.</a>
+                                      </p>
+                                    <p>The blueberry is a flowering shrub that produces berries that are colored blue to purple, also known as blueberries. It is strongly related to similar shrubs, such as those that produce cranberries and huckleberries.</p>
+                                  </div>
+                                <div class="news-content" id="cherry">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-cherry.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 100 gm): 46 calories, less than 4.6 g fibre.</a>
+                                      </p>
+                                    <p>In a 2009 study that was published in the Journal of Medical Food, rats that received whole tart cherry powder for 90 days, mixed into a high-fat diet, didn’t gain as much weight or build up as much body fat as rats that didn’t receive cherries.</p>
+                                  </div>
+                                <div class="news-content" id="watermelon">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-watermelon.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 100 gm): 30 calories, source of Potassium 112 g, Vitamin A, B-12, D.</a>
+                                      </p>
+                                    <p>Watermelons contain a lot of potassium, which is very helpful in cleaning or washing out the toxic depositions in the kidney. Moreover, it is helpful in reducing the concentration of uric acid in the blood, thereby reducing the chances of kidney damage and the formation of renal calculi in that organ.</p>
+                                  </div>
+                                <div class="news-content" id="orange">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-orange.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 100 gm): 47 calories, less than 1 g fibre, Water 87%.</a>
+                                      </p>
+                                    <p>Oranges are an excellent source of vitamin C. One large orange can provide over 100% of the daily recommended intake. Thiamin: One of the B-vitamins, also called vitamin B1. Found in a wide variety of foods.</p>
+                                  </div>
+                                <div class="news-content" id="strawberry">
+                                    <p><a href="health-wellbeing/what-are-the-health-benefits-of-strawberry.html"><img title="" src="images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 100 gm): 33 calories, source of Potassium 153 g, Vitamin A, B-12, D.</a>
+                                      </p>
+                                    <p>They are full of fibre, and one cup (250 mL) contains an entire day’s worth of vitamin C, which helps strengthen the immune system and protects connective tissue. Berries may help keep blood sugar in check.</p>
+                                  </div>
 
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="images/singlenews_1.jpg" alt="singlenews_1" /></figure>
                             </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="pink-text pull-left"><i class="fa fa-camera"></i>&nbsp;Photography</h5>
-                            <date class="pull-right">24-01-2017</date>
                         </div>
                     </div>
-                </div>
-                <div class="single-news">
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="images/singlenews_1.jpg" alt="singlenews_1" /></figure>
+                        <div class="featured-media">
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle reveal" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Exclusive Curated Playlist: Vibes</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=0" href="http://www.spotify-thedrop.com/#/drop/222?media=0">View playlist</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-d159a18af1d395c94f24e1130520c450.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="orange-text pull-left"><i class="fa fa-fire"></i>&nbsp;Culture</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="images/singlenews_1.jpg" alt="singlenews_1" /></figure>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Behind ZHU's GENERATIONWHY: Part 1</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=1" href="http://www.spotify-thedrop.com/#/drop/222?media=1">View video</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-87e5af06b982ea726ab34c14a0506465.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="cyan-text pull-left"><i class="fa fa-graduation-cap"></i>&nbsp;Education</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="images/singlenews_1.jpg" alt="singlenews_1" /></figure>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Exclusive Neon City Tour &amp; GENERATIONWHY Stills Gallery</h3>
+                                            <p>Check out this exclusive gallery of live images from the 2016 Neon City Tour and never before seen stills from ZHU's forthcoming short film GENERATIONWHY</p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=2" href="http://www.spotify-thedrop.com/#/drop/222?media=2">View gallery</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-0fa34211b34b5e11660162d9c97aba6e.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="purple-text pull-left"><i class="fa fa-map"></i>&nbsp;Adventure</h5>
-                            <date class="pull-right">24-01-2017</date>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>"Hometown Girl" Track Premiere</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=3" href="http://www.spotify-thedrop.com/#/drop/222?media=3">View single</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-be77563d5ec9ddd021de0fcc6e59d061.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Behind ZHU's GENERATIONWHY: Part 2</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=4" href="http://www.spotify-thedrop.com/#/drop/222?media=4">View video</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-a1aae8bd863aaff4ad0f6462ee148eb9.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Exclusive Curated Playlist: Feels</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=5" href="http://www.spotify-thedrop.com/#/drop/222?media=5">View playlist</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-17b58aac96bc6cde56fd151341b7b3c0.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content track by $index | limitTo: 5" class="main-featured-content">
+                                <div class="featured-circle" ng-class="{reveal: isFeatured(item.item_index) &amp;&amp; backgroundLoaded, &#39;first-load&#39;: firstLoad}">
+                                    <div class="featured-bubble-content vertical-center">
+                                        <div class="mask-featured-bubble-content">
+                                            <h3>Behind ZHU's GENERATIONWHY: Part 3</h3>
+                                            <p></p> <a class="btn-drop" name="viewDrop" ng-show="!item.locked" ng-href="#/drop/222?media=6" href="http://www.spotify-thedrop.com/#/drop/222?media=6">View video</a> </div>
+                                    </div>
+                                    <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                        <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-44eec75c8950f6bac7247f396ea0646b.jpg&quot;);"></div>
+                                        <div class="image-loader-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <!---->
+                            <div ng-repeat="item in featured.content | limitTo: 5" class="featured-media-item item-0 revealed" media-circle="" ng-style="circleStyle" style="width: 12.724em; height: 12.724em;">
+                                <div class="featured-media-item-animation-container" ng-class="{locked: (item.locked === true)}">
+                                    <a class="featured-media-item-circle" ng-click="selectFeature(item.item_index)">
+                                        <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                            <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-d159a18af1d395c94f24e1130520c450.jpg&quot;);"></div>
+                                            <div class="image-loader-progress"></div>
+                                        </div>
+                                        <div class="featured-media-item-label" ng-style="labelStyle" style="top: 10.8606em; left: 10.8606em;">
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;video&#39;"><img src="./www.spotify-thedrop.com_files/Video-white.svg"></div>
+                                            <div class="media-object" ng-show="item.media_type === &#39;playlist&#39;"><img src="./www.spotify-thedrop.com_files/Playlist-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;gallery&#39;"><img src="./www.spotify-thedrop.com_files/Gallery-white.svg"></div>
+                                            <div class="locked ng-hide" ng-show="item.locked"><img src="./www.spotify-thedrop.com_files/Locked-white.svg"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content | limitTo: 5" class="featured-media-item item-1 revealed" media-circle="" ng-style="circleStyle" style="width: 10.6204em; height: 10.6204em;">
+                                <div class="featured-media-item-animation-container" ng-class="{locked: (item.locked === true)}">
+                                    <a class="featured-media-item-circle" ng-click="selectFeature(item.item_index)">
+                                        <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                            <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-87e5af06b982ea726ab34c14a0506465.jpg&quot;);"></div>
+                                            <div class="image-loader-progress"></div>
+                                        </div>
+                                        <div class="featured-media-item-label" ng-style="labelStyle" style="top: 9.06511em; left: 9.06511em;">
+                                            <div class="media-object" ng-show="item.media_type === &#39;video&#39;"><img src="./www.spotify-thedrop.com_files/Video-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;playlist&#39;"><img src="./www.spotify-thedrop.com_files/Playlist-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;gallery&#39;"><img src="./www.spotify-thedrop.com_files/Gallery-white.svg"></div>
+                                            <div class="locked ng-hide" ng-show="item.locked"><img src="./www.spotify-thedrop.com_files/Locked-white.svg"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content | limitTo: 5" class="featured-media-item item-2 revealed" media-circle="" ng-style="circleStyle" style="width: 11.0977em; height: 11.0977em;">
+                                <div class="featured-media-item-animation-container" ng-class="{locked: (item.locked === true)}">
+                                    <a class="featured-media-item-circle" ng-click="selectFeature(item.item_index)">
+                                        <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                            <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-0fa34211b34b5e11660162d9c97aba6e.jpg&quot;);"></div>
+                                            <div class="image-loader-progress"></div>
+                                        </div>
+                                        <div class="featured-media-item-label" ng-style="labelStyle" style="top: 9.47251em; left: 9.47251em;">
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;video&#39;"><img src="./www.spotify-thedrop.com_files/Video-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;playlist&#39;"><img src="./www.spotify-thedrop.com_files/Playlist-white.svg"></div>
+                                            <div class="media-object" ng-show="item.media_type === &#39;gallery&#39;"><img src="./www.spotify-thedrop.com_files/Gallery-white.svg"></div>
+                                            <div class="locked ng-hide" ng-show="item.locked"><img src="./www.spotify-thedrop.com_files/Locked-white.svg"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content | limitTo: 5" class="featured-media-item item-3 revealed" media-circle="" ng-style="circleStyle" style="width: 5.10883em; height: 5.10883em;">
+                                <div class="featured-media-item-animation-container" ng-class="{locked: (item.locked === true)}">
+                                    <a class="featured-media-item-circle" ng-click="selectFeature(item.item_index)">
+                                        <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                            <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-be77563d5ec9ddd021de0fcc6e59d061.jpg&quot;);"></div>
+                                            <div class="image-loader-progress"></div>
+                                        </div>
+                                        <div class="featured-media-item-label" ng-style="labelStyle" style="top: 4.36066em; left: 4.36066em;">
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;video&#39;"><img src="./www.spotify-thedrop.com_files/Video-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;playlist&#39;"><img src="./www.spotify-thedrop.com_files/Playlist-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;gallery&#39;"><img src="./www.spotify-thedrop.com_files/Gallery-white.svg"></div>
+                                            <div class="locked ng-hide" ng-show="item.locked"><img src="./www.spotify-thedrop.com_files/Locked-white.svg"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!---->
+                            <div ng-repeat="item in featured.content | limitTo: 5" class="featured-media-item item-4 revealed" media-circle="" ng-style="circleStyle" style="width: 11.7592em; height: 11.7592em;">
+                                <div class="featured-media-item-animation-container" ng-class="{locked: (item.locked === true)}">
+                                    <a class="featured-media-item-circle" ng-click="selectFeature(item.item_index)">
+                                        <div class="block-item-background image-loader image-loader-complete" image-loader="" image-loader-src="item.featured_image">
+                                            <div class="image-loader-element" ng-style="backgroundImage" style="background-image: url(&quot;https://spotify-thedrop.s3.amazonaws.com/drops/2016-07/af-a1aae8bd863aaff4ad0f6462ee148eb9.jpg&quot;);"></div>
+                                            <div class="image-loader-progress"></div>
+                                        </div>
+                                        <div class="featured-media-item-label" ng-style="labelStyle" style="top: 10.0371em; left: 10.0371em;">
+                                            <div class="media-object" ng-show="item.media_type === &#39;video&#39;"><img src="./www.spotify-thedrop.com_files/Video-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;playlist&#39;"><img src="./www.spotify-thedrop.com_files/Playlist-white.svg"></div>
+                                            <div class="media-object ng-hide" ng-show="item.media_type === &#39;gallery&#39;"><img src="./www.spotify-thedrop.com_files/Gallery-white.svg"></div>
+                                            <div class="locked ng-hide" ng-show="item.locked"><img src="./www.spotify-thedrop.com_files/Locked-white.svg"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!---->
                         </div>
                     </div>
                 </div>
@@ -1005,6 +1170,7 @@
     <script type="text/javascript" src="scripts/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="http://cssslider.com/sliders/demo-8/engine1/gestures.js"></script>
     <script type="text/javascript" src="scripts/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="scripts/vertical.news.slider.min.js"></script>
     <script type="text/javascript" src="scripts/viewportchecker.js"></script>
     <script type="text/javascript" src="scripts/custom.js"></script>
 

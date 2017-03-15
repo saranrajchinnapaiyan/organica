@@ -1073,6 +1073,9 @@ h5 {
     
     .right{
         .single-news{
+            .news-headlines li{
+                line-height: 20px;
+            }
             .col-md-9{                 
                 @extend .font-w500;
             }
