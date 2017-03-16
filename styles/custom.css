@@ -101,6 +101,9 @@ ul li,
 ol li {
   margin-bottom: 10px; }
 
+.article li {
+  margin-bottom: 0; }
+
 .header ul li {
   margin-bottom: 0; }
 
@@ -119,6 +122,9 @@ ol li {
 
 .padd-left5p {
   padding-left: 5px; }
+
+.marg-t10 {
+  margin-top: 10px; }
 
 .marg-t30 {
   margin-top: 30px; }
@@ -877,19 +883,23 @@ blockquote,
   z-index: 12;
   text-align: center; }
 
+.progress-bar-bottom {
+  padding: 2.5px;
+  background-color: #0084bf; }
+
 /*# Custom article slider */
 .pointer-brown-color {
   color: #f38763; }
 
 .post-inner {
   position: relative;
-  bottom: 6vh;
+  bottom: 40px;
   color: #fff;
   text-align: center;
   padding: 10px;
   display: block;
-  width: 7vw;
-  margin: 0 30px; }
+  width: 6em;
+  margin: 0 15px; }
   .post-inner .category-name-wrap, .post-inner h3 {
     color: #fff; }
   .post-inner h3 {
@@ -932,7 +942,7 @@ blockquote,
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
   .topSectionImage .post-inner {
-    background: #2e6dc7;
+    background: #0084bf;
     transition: visibility 0s, opacity 0.5s linear;
     visibility: visible;
     opacity: 1; }
@@ -948,6 +958,18 @@ h5 {
 
 .blue-text {
   color: #2196F3 !important; }
+
+.darkblue-text {
+  color: #0084bf !important; }
+
+.green-text {
+  color: #6ab42f !important; }
+
+.black-text {
+  color: #000 !important; }
+
+.white-text {
+  color: #fff !important; }
 
 .detailed_article {
   background: #f7f7f7; }
@@ -1029,6 +1051,13 @@ h5 {
     text-decoration: underline !important; }
   .single-news .featured-media h3, .single-news .featured-media a {
     color: #fff; }
+  .single-news .featured-media .bubbling-circle-sm {
+    width: 8em;
+    height: 8em; }
+  .single-news .featured-media .featured-media-item-circle {
+    background-image: url("../images/singlenews_1.jpg"); }
+  .single-news .news-preview {
+    margin-left: -31px; }
 
 .video-box figure img {
   width: 100%;
@@ -1489,7 +1518,7 @@ footer {
 @media (min-width: 992px) {
   .tabletwide .post-inner {
     width: auto;
-    bottom: 5vh; }
+    bottom: 45px; }
   .tabletwide .flex-direction-nav {
     display: none; }
 
@@ -1539,6 +1568,10 @@ footer {
 
   .mb-r {
     margin-bottom: 3rem !important; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .portrait .post-inner {
+    bottom: 45px;
+    left: 0px; } }
 /*# sourceMappingURL=custom.css.map */
 
 /*# sourceMappingURL=custom.css.map */
