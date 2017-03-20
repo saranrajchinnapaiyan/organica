@@ -48,7 +48,9 @@ $(document).ready(function(){
         var self = this;
         $(dom).removeClass('preview_article_'+ index ).addClass('preview_article_' + index);
     })
-   
+    
+    var d = $('.detailed_article .right .single-news, .right h3');
+    (isMobile.ipad()) ? $(d).addClass('custom-container') : $(d).removeClass('custom-container');
     
     //Fb Share articles goes here
     $('.sharefb').click(function(){

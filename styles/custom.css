@@ -111,6 +111,12 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.custom-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
 .hide {
   display: none !important; }
 
@@ -1116,7 +1122,7 @@ h5 {
 
 .person:hover .details {
   height: 115%;
-  border-bottom: 2px solid red;
+  border-bottom: 5px solid #0084bf;
   z-index: 10;
   -webkit-opacity: 1;
   -moz-opacity: 1;
@@ -1182,8 +1188,8 @@ h5 {
       -webkit-font-smoothing: subpixel-antialiased;
       outline: 0 !important; }
       .person .social li a.icons-sm:hover {
-        background: none repeat scroll 0 0 #fff !important;
-        color: #6ab42f !important; }
+        background: none repeat scroll 0 0 #0084bf !important;
+        color: #fff !important; }
 .person .person-info {
   margin-top: 10px;
   padding: 10px 0px 10px 0px;
@@ -1516,6 +1522,9 @@ footer {
   .portrait .flex-direction-nav {
     display: none; } }
 @media (min-width: 992px) {
+  .left {
+    margin-top: 5px; }
+
   .tabletwide .post-inner {
     width: auto;
     bottom: 45px; }
@@ -1567,11 +1576,42 @@ footer {
     right: 100%; }
 
   .mb-r {
-    margin-bottom: 3rem !important; } }
+    margin-bottom: 3rem; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .our-team-detail .person {
+    margin-bottom: 10%; }
+    .our-team-detail .person .social {
+      margin-top: 10%; }
+
+  .detailed_article .left {
+    margin-top: 5px; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .portrait .post-inner {
     bottom: 45px;
-    left: 0px; } }
+    left: 0px; }
+  .portrait .our-team-detail .person {
+    margin-bottom: 10%; }
+  .portrait .person .social {
+    margin-top: auto; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .detailed_article .preview {
+    margin-bottom: 5%; }
+  .detailed_article .news-data .article-desc {
+    max-height: inherit;
+    padding-bottom: 15% !important; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .news-data {
+    margin-bottom: 15px; }
+    .news-data .article-desc {
+      padding-bottom: 15%; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .our-team-detail .person {
+    margin-bottom: 10%; }
+    .our-team-detail .person .social {
+      margin-top: 5.5%; }
+
+  .news-data .article-desc {
+    max-height: inherit; } }
 /*# sourceMappingURL=custom.css.map */
 
 /*# sourceMappingURL=custom.css.map */

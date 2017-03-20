@@ -115,6 +115,12 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.custom-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .hide{
     display: none !important;
 }
@@ -1212,7 +1218,7 @@ h5 {
 .person{
     &:hover .details{
         height: 115%;
-        border-bottom: 2px solid red;   
+        border-bottom: 5px solid #0084bf;
         z-index: 10;
         -webkit-opacity: 1;
         -moz-opacity: 1;
@@ -1282,8 +1288,8 @@ h5 {
                 -webkit-font-smoothing: subpixel-antialiased;
                 outline: 0 !important;
                 &:hover{
-                    background: none repeat scroll 0 0 #fff !important;
-                    color: #6ab42f !important;
+                    background: none repeat scroll 0 0 #0084bf !important;
+                    color: #fff !important;
                 }
             }
             
@@ -1736,7 +1742,13 @@ footer{
     }
     
 }
+
 @media (min-width: 992px) {
+    
+        .left{
+            margin-top: 5px;
+        }
+    
     //ipad landscape
     .tabletwide{
         .post-inner{
@@ -1793,7 +1805,29 @@ footer{
     right: 100%; } 
     
     .mb-r {
-        margin-bottom: 3rem!important;
+        margin-bottom: 3rem;
+    }
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:landscape){
+
+    .our-team-detail{
+            .person{
+                margin-bottom: 10%;
+                .social{
+                    margin-top: 10%;
+                }
+                .details{
+
+                }
+            }
+        }
+    .detailed_article{
+        .left{
+            margin-top: 5px;
+        }
     }
 }
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait){
@@ -1803,6 +1837,56 @@ footer{
             bottom: 45px;
             left: 0px;
         }
+        .our-team-detail{
+            .person{
+                margin-bottom: 10%;
+            }
+        }
+        .person{
+            .social{
+                margin-top: auto;
+            }
+            .details{
+//                width: 94%;
+//                margin-left: 3%;
+            }
+        }
+
     }
+}
+//iphone 6 plus
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    .detailed_article{
+        .preview{ margin-bottom: 5%; }
+        .news-data{
+            .article-desc{ max-height: inherit; padding-bottom: 15% !important;}
+            
+        }
+    }
+}
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+    .news-data{
+            margin-bottom: 15px;
+            .article-desc{                 
+                padding-bottom: 15%;
+            }
+        }
+}
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
+    .our-team-detail{
+            .person{
+                margin-bottom: 10%;
+                .social{
+                    margin-top: 5.5%;
+                }
+            }
+        }
+    .news-data{
+            .article-desc{ max-height: inherit; }
+        }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation:landscape){
+
 }
 /*# sourceMappingURL=custom.css.map */
