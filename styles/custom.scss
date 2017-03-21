@@ -143,6 +143,7 @@ ol li {
 .padd15{
     padding:15px;
 }
+.padd-l-15{ padding-left: 15px; }
 .inline{
     display: inline;
 }
@@ -1940,7 +1941,6 @@ footer{
         margin-bottom: 3rem;
     }
 
-
 }
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:landscape){
@@ -1988,13 +1988,22 @@ footer{
 }
 //iphone 6 plus
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    .navbar-nav{
+        .has-submenu{
+            .dropdown-menu {
+
+            }
+        }
+    }
     .detailed_article{
+        .article-section ul li{ line-height: 25px;}
         .preview{ margin-bottom: 5%; }
         .news-data{
             .article-desc{ max-height: inherit; padding-bottom: 15% !important;}
             
         }
     }
+
 }
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
     .news-data{

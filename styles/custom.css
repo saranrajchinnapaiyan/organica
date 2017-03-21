@@ -141,6 +141,9 @@ ol li {
 .padd15 {
   padding: 15px; }
 
+.padd-l-15 {
+  padding-left: 15px; }
+
 .inline {
   display: inline; }
 
@@ -1686,6 +1689,8 @@ footer {
   .portrait .person .social {
     margin-top: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .detailed_article .article-section ul li {
+    line-height: 25px; }
   .detailed_article .preview {
     margin-bottom: 5%; }
   .detailed_article .news-data .article-desc {
