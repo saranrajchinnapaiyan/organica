@@ -156,6 +156,10 @@ ol li {
 .rounded-circle {
   border-radius: 50%; }
 
+.domain-color {
+  color: #0082ca;
+  font-weight: 900; }
+
 .left.col-lg-6.start {
   width: 0px;
   background: #aae0aa;
@@ -1501,32 +1505,30 @@ footer {
     position: relative;
     z-index: 5000;
     text-transform: uppercase;
-    text-shadow: #0d73bb  0px 1px 4px;
     text-decoration: none;
     /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top, #253D59 0%, #1A2B3F 100%);
+    background-image: -ms-linear-gradient(top, #709D49 0%, #6ab42f 100%);
     /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top, #253D59 0%, #1A2B3F 100%);
+    background-image: -moz-linear-gradient(top, #709D49 0%, #6ab42f 100%);
     /* Opera */
-    background-image: -o-linear-gradient(top, #253D59 0%, #1A2B3F 100%);
+    background-image: -o-linear-gradient(top, #709D49 0%, #6ab42f 100%);
     /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #253D59), color-stop(1, #1A2B3F));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #709D49), color-stop(1, #6ab42f));
     /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top, #253D59 0%, #1A2B3F 100%);
+    background-image: -webkit-linear-gradient(top, #709D49 0%, #6ab42f 100%);
     /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to bottom, #253D59 0%, #1A2B3F 100%);
+    background-image: linear-gradient(to bottom, #709D49 0%, #6ab42f 100%);
     display: block;
     padding: 10px 15px 15px 10px;
-    border-bottom: 1px solid #000;
     position: relative;
     letter-spacing: 5px; }
   .tabs a:hover {
-    background-image: -ms-linear-gradient(top, #D1384A 0%, #872430 100%);
-    background-image: -moz-linear-gradient(top, #D1384A 0%, #872430 100%);
-    background-image: -o-linear-gradient(top, #D1384A 0%, #872430 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D1384A), color-stop(1, #872430));
+    background-image: -ms-linear-gradient(top, #109fff 0%, #687b70 100%);
+    background-image: -moz-linear-gradient(top, #109fff 0%, #687b70 100%);
+    background-image: -o-linear-gradient(top, #109fff 0%, #687b70 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #109fff), color-stop(1, #687b70));
     background-image: -webkit-linear-gradient(top, #D1384A 0%, #872430 100%);
-    background-image: linear-gradient(to bottom, #D1384A 0%, #872430 100%); }
+    background-image: linear-gradient(to bottom, #109fff 0%, #687b70 100%); }
   .tabs a:before {
     content: "\f13a";
     position: absolute;
@@ -1553,7 +1555,7 @@ footer {
   .tabs ul {
     background: #fff;
     border: 0px solid #000;
-    padding: 0px 0px 10px 47px;
+    padding: 0px 0px 0px 20px;
     display: none;
     position: relative;
     border-top: none; }
