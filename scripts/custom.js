@@ -146,74 +146,12 @@ $(document).ready(function () {
             self.setAccordionTabInfo();
         };
 
-
         //Add your object to global scope
             window.Home = Home;
         //init all the page load actions
         this.Home.prototype.init();
+
     }(this || {}));
 
-//
-//
-//    $('.flexslider').flexslider({
-//        animation: "slide"
-//        , itemWidth: 250
-//        , itemMargin: 25
-//        , animationLoop: true
-//        , slideshow: true
-//        , pauseOnHover: true
-//        , start: function (slider) {
-//            $('body').removeClass('loading');
-//        }
-//    });
-//
-//    $('ul#slides li').each(function (index, ele) {
-//        var self = this;
-//        var li = ele;
-//        $(li).removeClass('article slide_' + index).addClass('article slide_' + index);
-//    });
-//    $('.article-preview').find('.col-lg-6').each(function (index, dom) {
-//        var self = this;
-//        $(dom).removeClass('preview_article_' + index).addClass('preview_article_' + index);
-//    })
-//
-//    var d = $('.detailed_article .right .single-news, .right h3');
-//    (isMobile.ipad()) ? $(d).addClass('custom-container'): $(d).removeClass('custom-container');
-//
-//    //Accordion for recommended articles in detailed pages
-//    $(".tabs").fadeIn(1000);
-//        $("a").click(function(){
-//        $(".menu").slideUp();
-//            if ($(this).next().is(":hidden")){
-//                $(this).next().slideDown(300)
-//            }
-//    });
-//    //Fb Share articles goes here
-//    $('.sharefb').click(function () {
-//        FB.ui({
-//            method: 'feed'
-//            , link: 'https://www.facebook.com'
-//            , caption: "Welcome to Food Factory | foodfactory.com"
-//            , picture: "https://www.alkaseltzer.com/static/media/images/fbshare_colors4.jpg"
-//            , description: "Can you make brilliant colors out of Alka-Seltzer and a \r\n\r\n head of cabbage? Why yes, yes you can."
-//        }, function (response) {})
-//    });
-//
-//
-//
-//
-//
-//    //set accordion tab preview content
-//    $('.detailed_article .right').find('.menu').each(function(i,val){
-//        var self = this;
-//        var tabContents = window.Home.tabAccordionInfo();
-//        var fruitName = $(val).find('p').data('fruit');
-//        $.each(tabContents, function(i,v){
-//            if(fruitName == i)
-//                $(val).find('li p').text(v);
-//        });
-//
-//
-//    });
 });
 

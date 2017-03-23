@@ -121,6 +121,10 @@ ol li {
     margin-left: 15px;
     margin-right: 15px;
 }
+.setScrollArticle{
+    max-height: 880px;
+    overflow-y:auto;
+}
 .left-align{
     text-align: left;
 }
@@ -1178,7 +1182,8 @@ h5 {
 //Tips
 
 .tips{
-    .article-section{max-height: 880px; overflow-y:auto;
+    .article-section{
+        @extend .setScrollArticle;
         figure{ margin:10px 0px;}
     }
     ul{
@@ -1202,6 +1207,23 @@ h5 {
     h2{
         @extend .left-align;
     }
+}
+//How to start home garden
+.start-home-garden{
+    .article-section{
+        @extend .setScrollArticle;
+         ul{
+            @extend .marg-l-2rem;
+           li{ text-align: left; @extend .line-h-20p; }
+        }
+    }
+     h2{ @extend .left-align;}
+
+}
+//benifits of home garden
+.benifits{
+    .article-section{ @extend .setScrollArticle;}
+     h2{ @extend .left-align;}
 }
 //About Me
 .heading{
