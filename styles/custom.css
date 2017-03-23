@@ -117,6 +117,9 @@ ol li {
   margin-left: 15px;
   margin-right: 15px; }
 
+.left-align, .tips h2 {
+  text-align: left; }
+
 .hide {
   display: none !important; }
 
@@ -131,6 +134,9 @@ ol li {
 
 .marg-t10 {
   margin-top: 10px; }
+
+.marg-l-2rem, .tips ul, .tips ol {
+  margin-left: 2rem; }
 
 .marg-t30 {
   margin-top: 30px; }
@@ -148,13 +154,16 @@ ol li {
   display: inline; }
 
 .inline-block {
-  display: inline-block; }
+  display: inline-block !important; }
 
 .text-centre, .about-me .about-title h3, .our-team .section-hint {
   text-align: center; }
 
 .rounded-circle {
   border-radius: 50%; }
+
+.line-h-20p, .tips ul li, .tips ol li, .tips .tips-center-1 li {
+  line-height: 20px; }
 
 .domain-color {
   color: #0082ca;
@@ -1090,6 +1099,21 @@ h5 {
 .video-box .no-shadow {
   box-shadow: none; }
 
+.tips .article-section {
+  max-height: 880px;
+  overflow-y: auto; }
+  .tips .article-section figure {
+    margin: 10px 0px; }
+.tips ul li {
+  text-align: left; }
+.tips ol li {
+  text-align: left; }
+.tips .tips-center-1 li {
+  list-style: none; }
+  .tips .tips-center-1 li a {
+    color: blue;
+    text-decoration: underline !important; }
+
 .heading, .about-me .about-title h3, .our-team .section-heading {
   margin-top: 2rem;
   font-size: 200%;
@@ -1541,6 +1565,9 @@ footer {
     font-size: 20px;
     position: relative;
     top: 3px; }
+  .tabs a.goto {
+    color: #2298e3;
+    background-image: none; }
   .tabs h1 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -1690,6 +1717,9 @@ footer {
     margin-bottom: 10%; }
   .portrait .person .social {
     margin-top: auto; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .tips ul {
+    margin-left: 1rem; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .detailed_article .article-section ul li {
     line-height: 25px; }
@@ -1697,7 +1727,10 @@ footer {
     margin-bottom: 5%; }
   .detailed_article .news-data .article-desc {
     max-height: inherit;
-    padding-bottom: 15% !important; } }
+    padding-bottom: 15% !important; }
+
+  .tips ul {
+    margin-left: 0; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
   .news-data {
     margin-bottom: 15px; }
@@ -1711,6 +1744,9 @@ footer {
 
   .news-data .article-desc {
     max-height: inherit; } }
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+  .tips ul {
+    margin-left: 0; } }
 /*# sourceMappingURL=custom.css.map */
 
 /*# sourceMappingURL=custom.css.map */
