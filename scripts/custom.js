@@ -135,6 +135,14 @@ $(document).ready(function () {
 
             Home.prototype.setAccordionTabReadMoreAnchor();
         };
+        Home.prototype.fbShare = function(url){
+            //coupon page facebook share.
+             var h = 250; var w = 600;
+             var left = (screen.width / 2) - (w / 2);
+             var top = (screen.height / 2) - (h / 2);
+             newwindow = window.open('http://www.facebook.com/sharer.php?u=https://ibeinghuman.herokuapp.com/index.html', 'name', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+            //if (window.parent.window.focus) {newwindow.focus()} //window.parent.newwindow.focus();
+        };
 
         Home.prototype.init = function(){
             var self = this;
