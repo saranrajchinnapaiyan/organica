@@ -1,4 +1,7 @@
 https://ibeinghuman.com - 50.63.202.3  - 184.168.221.20
+FB AppID  - 290230658076387
+Google Analytics :
+Tracking ID : UA-93843051-1
 
 
 Gardening links : 
@@ -10,69 +13,35 @@ Link 1 - http://www.moneycrashers.com/how-to-save-money-with-a-home-garden/
 Link 2 - https://www.linkedin.com/pulse/6-key-importance-home-gardens-lets-help-you-plant-one-okese
 Link 3 - http://www.schultesgreenhouse.com/Benefits.html
 
+
+
+Garden Tips
+http://www.goodhousekeeping.com/home/gardening/advice/g2104/organic-gardening-tips-460309/
+
+
+http://extension.illinois.edu/veggies/
+
+Nutrition Facts List :
+https://authoritynutrition.com/foods/apples/
+
+Fruit List
+http://www.nutrition-and-you.com/
 http://www.livestrong.com/article/205173-examples-of-organic-food-products/
 
 
-http://extension.illinois.edu/veggies/ - general to refer
+Life style:
+http://www.alive.com/category/lifestyle/
 
-Nutrition Facts List : -> https://authoritynutrition.com/foods/apples/
-fruit details -> http://www.nutrition-and-you.com/
-
-Google Analytics :
-
-Tracking ID : UA-93843051-1
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-93843051-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+Photo graphs:
+http://www.all-things-photography.com/photography-articles/
+http://www.in.techradar.com/how-to/misc/77-photography-techniques-tips-and-tricks-for-taking-pictures-of-anything/articleshow/52212465.cms?page=3
 
 main theme - http://preview.themeforest.net/item/-ws-garden-responsive-gardening-wp-theme-/full_screen_preview/14403484?_ga=1.260977357.1754068718.1490110086
 
-
-
+https://1stwebdesigner.com/free-responsive-web-templates/
 
 
 http://nibbler.silktide.com/ - bg to render
-
-
-
-Fruit Lists:
-
-Grape - created - Done
-Grapefruit (pink) 
-Apple - created - 
-Avocado - created
-Banana - created
-Blackberry
-Blueberry
-Cantaloupe
-Cherry
-Cranberry
-Fig (dried)
-Goji berry
-Frozen fruit
-Kiwifruit
-Mango
-Orange
-Papaya
-Peach
-Pear
-Pineapple
-Pomegranate
-Prune
-Raspberry
-Strawberry
-Tomato
-Watermelon
-
-<h3></h3>
-<p></p>
 
 recommended Articles 
 

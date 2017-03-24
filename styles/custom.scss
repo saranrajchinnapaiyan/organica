@@ -1225,6 +1225,12 @@ h5 {
     .article-section{ @extend .setScrollArticle;}
      h2{ @extend .left-align;}
 }
+
+//Life-Style
+.adventure{
+    .article-section{ @extend .setScrollArticle;}
+     h2{ @extend .left-align;}
+}
 //About Me
 .heading{
     margin-top: 2rem;        

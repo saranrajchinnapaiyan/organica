@@ -117,11 +117,11 @@ ol li {
   margin-left: 15px;
   margin-right: 15px; }
 
-.setScrollArticle, .tips .article-section, .start-home-garden .article-section, .benifits .article-section {
+.setScrollArticle, .tips .article-section, .start-home-garden .article-section, .benifits .article-section, .adventure .article-section {
   max-height: 880px;
   overflow-y: auto; }
 
-.left-align, .tips h2, .start-home-garden h2, .benifits h2 {
+.left-align, .tips h2, .start-home-garden h2, .benifits h2, .adventure h2 {
   text-align: left; }
 
 .hide {
