@@ -1350,3 +1350,8 @@ a.share-button:hover {
     padding: 0;
     margin: 0
 }
+@media (max-width: 1440px) {
+    .featured-circle{
+        border:1px solid red;
+    }
+}

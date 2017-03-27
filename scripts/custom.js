@@ -149,6 +149,13 @@ $(document).ready(function () {
              newwindow = window.open('http://www.facebook.com/sharer.php?u=https://ibeinghuman.herokuapp.com/health-wellbeing/what-are-the-health-benefits-of-apple.html', 'name', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
             //if (window.parent.window.focus) {newwindow.focus()} //window.parent.newwindow.focus();
         };
+        Home.prototype.setmCustomScrollBar = function(){
+            var self = this;
+            $('body, html, .article-section').mCustomScrollbar({
+                    theme:"dark-3",
+            });
+
+        };
 
         Home.prototype.init = function(){
             var self = this;
@@ -158,6 +165,7 @@ $(document).ready(function () {
             self.setIpadAlignment();
             self.showAccordionTab();
             self.setAccordionTabInfo();
+            self.setmCustomScrollBar();
         };
 
         //Add your object to global scope

@@ -28,7 +28,7 @@ a {
 }
 
   .news-headlines li {
-    padding: 10px 20px 10px 25px;
+    padding: 10px 10px 10px 10px;
     margin-bottom: 10px;
     position: relative;
     z-index: 20;
@@ -109,6 +109,7 @@ a {
     .news-preview{ margin-left: 0}
 }
 
+
     
 .media-object{
     margin-top: 10px;
@@ -169,4 +170,8 @@ a {
 }
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
     
+}
+
+@media only screen and (max-width : 1440px){
+    .news-preview{width:120%;}
 }

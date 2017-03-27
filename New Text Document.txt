@@ -31,9 +31,17 @@ http://www.livestrong.com/article/205173-examples-of-organic-food-products/
 
 Life style:
 http://www.alive.com/category/lifestyle/
+https://blog.hubspot.com/marketing/business-conference-traveling-hacks#sm.000001hkpk1bg5dnsranemrpggv25
 
 Photo graphs:
+
+https://photography.tutsplus.com
+
+https://blog.hubspot.com/marketing/good-pictures-phone-tips#sm.000001hkpk1bg5dnsranemrpggv25
 http://www.all-things-photography.com/photography-articles/
+
+rules&regulation : https://digital-photography-school.com/rule-of-thirds/
+
 http://www.in.techradar.com/how-to/misc/77-photography-techniques-tips-and-tricks-for-taking-pictures-of-anything/articleshow/52212465.cms?page=3
 
 main theme - http://preview.themeforest.net/item/-ws-garden-responsive-gardening-wp-theme-/full_screen_preview/14403484?_ga=1.260977357.1754068718.1490110086
@@ -56,3 +64,11 @@ https://dribbble.com/shots/3213939-Gardening-Lawn-Garden-Landscaping-Theme
 
 i) commit to staging
 ii) open->git cmd in folder -> git push
+
+
+
+
+********************
+For best content
+http://www.techgyd.com/get-free-content-for-site/13308/
+
