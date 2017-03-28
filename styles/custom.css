@@ -111,6 +111,9 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.w100 {
+  width: 100%; }
+
 .custom-container {
   padding-left: 15px;
   padding-right: 15px;
@@ -1020,8 +1023,7 @@ h5 {
 .detailed_article {
   background: #f7f7f7; }
   .detailed_article .container {
-    text-align: -webkit-center;
-    margin: auto 0; }
+    text-align: -webkit-center; }
   .detailed_article img {
     display: block;
     max-width: 100%;
@@ -1372,6 +1374,156 @@ h5 {
 .contact-us footer {
   position: fixed; }
 
+.author .demo-3 {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px; }
+  .author .demo-3 figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer; }
+    .author .demo-3 figure img {
+      display: block;
+      position: relative;
+      z-index: 10; }
+    .author .demo-3 figure figcaption {
+      display: block;
+      position: absolute;
+      z-index: 5;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .author .demo-3 figure h2 {
+      font-family: 'Lato';
+      color: #fff;
+      font-size: 20px;
+      text-align: left; }
+    .author .demo-3 figure p {
+      display: block;
+      font-family: 'Lato';
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0;
+      color: #fff;
+      text-align: left; }
+    .author .demo-3 figure figcaption {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 29px 44px;
+      background-color: rgba(26, 76, 110, 0.5);
+      text-align: center;
+      backface-visibility: hidden;
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all 0.5s; }
+    .author .demo-3 figure img {
+      backface-visibility: hidden;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all 0.5s; }
+    .author .demo-3 figure:hover img {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      transform: rotateY(180deg); }
+    .author .demo-3 figure:hover figcaption {
+      -webkit-transform: rotateY(0);
+      -moz-transform: rotateY(0);
+      transform: rotateY(0); }
+.author .about-left {
+  background-color: aliceblue; }
+  .author .about-left .gallery .img-gallery {
+    height: 15rem; }
+  .author .about-left .gallery .osgalery-cat-tabs li {
+    float: left;
+    margin-right: 10px;
+    display: inline-block; }
+.author .timeline {
+  list-style: none;
+  padding: 0;
+  position: relative; }
+.author .welcome {
+  text-align: center;
+  margin: 0 auto 20px;
+  width: 720px; }
+.author .biography {
+  background: #191919; }
+  .author .biography .timeline {
+    list-style: none;
+    padding: 0;
+    position: relative; }
+    .author .biography .timeline li {
+      min-height: 170px;
+      position: relative;
+      margin-bottom: 100px; }
+      .author .biography .timeline li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px; }
+      .author .biography .timeline li .timeline-panel {
+        padding: 0 20px 20px 100px; }
+      .author .biography .timeline li .text-muted {
+        color: #777; }
+      .author .biography .timeline li .timeline-heading h4 {
+        margin-top: 0;
+        color: inherit; }
+  .author .biography .bio-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Oswald;
+    padding: 20px 30px; }
+  .author .biography .profile-time-line {
+    padding-bottom: 24.5%;
+    position: relative;
+    list-style: none outside none;
+    margin-left: 10px; }
+  .author .biography ol li {
+    height: 55%;
+    width: 25%;
+    position: relative;
+    z-index: 100;
+    border-width: 7px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+    margin-top: 140px; }
+    .author .biography ol li .time {
+      color: white;
+      font-size: 30px;
+      margin-left: 10rem;
+      position: relative;
+      top: 1rem;
+      font-family: inherit; }
+    .author .biography ol li p {
+      width: 400px;
+      margin-left: 10rem;
+      color: white; }
+  .author .biography .bg_1 {
+    background: url("../images/singlenews_1.jpg") repeat;
+    background-size: contain;
+    height: 135px; }
+  .author .biography :nth-child(1) {
+    margin-top: 0px !important; }
+  .author .biography .after {
+    bottom: 15%;
+    content: "";
+    display: block;
+    left: 15%;
+    position: absolute;
+    right: 0px;
+    top: 5%;
+    border-left: 2px solid white; }
+
 [type=checkbox] + label {
   position: relative;
   height: 25px;
@@ -1676,13 +1828,16 @@ footer {
     left: 25px; }
   .portrait .flex-direction-nav {
     display: none; } }
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1440px) and (min-width: 900px) {
   .tp-banner {
     max-height: 450px !important; }
 
   .featured-circle {
-    top: 102% !important; } }
-@media (min-width: 992px) {
+    top: 102% !important; }
+
+  .author .after {
+    left: 14.5%; } }
+@media only screen and (min-width: 992px) {
   .left {
     margin-top: 5px; }
 
@@ -1737,7 +1892,10 @@ footer {
     right: 100%; }
 
   .mb-r {
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem; }
+
+  .timeline > li {
+    min-height: 150px; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .our-team-detail .person {
     margin-bottom: 10%; }
@@ -1745,7 +1903,10 @@ footer {
       margin-top: 10%; }
 
   .detailed_article .left {
-    margin-top: 5px; } }
+    margin-top: 5px; }
+
+  .author .biography .after {
+    left: 16.5%; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .portrait .post-inner {
     bottom: 45px;
@@ -1757,6 +1918,12 @@ footer {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .tips ul {
     margin-left: 1rem; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .author .biography .after {
+    left: 13%; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .author .biography .after {
+    left: 16.5%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .detailed_article .article-section ul li {
     line-height: 25px; }
@@ -1772,7 +1939,10 @@ footer {
   .news-data {
     margin-bottom: 15px; }
     .news-data .article-desc {
-      padding-bottom: 15%; } }
+      padding-bottom: 15%; }
+
+  .author .biography .after {
+    left: 15.5%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .our-team-detail .person {
     margin-bottom: 10%; }
@@ -1780,7 +1950,10 @@ footer {
       margin-top: 5.5%; }
 
   .news-data .article-desc {
-    max-height: inherit; } }
+    max-height: inherit; }
+
+  .author .biography .after {
+    left: 12.5%; } }
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
   .tips ul {
     margin-left: 0; } }

@@ -115,6 +115,9 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.w100{
+    width:100%;
+}
 .custom-container{
     padding-left: 15px;
     padding-right: 15px;
@@ -1051,7 +1054,7 @@ h5 {
     background: #f7f7f7;
     .container{
             text-align: -webkit-center;
-            margin: auto 0;
+//            margin: auto 0;
         }
     img{
         display: block;
@@ -1575,6 +1578,201 @@ h5 {
     }
 }
 
+
+//About author
+.author{
+.demo-3 {
+    position:relative;
+    width:auto;
+    height:auto;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+        figure {
+            margin:0;
+            padding:0;
+            position:relative;
+            cursor:pointer;
+            img {
+                display:block;
+                position:relative;
+                z-index:10;
+            }
+            figcaption {
+                display:block;
+                position:absolute;
+                z-index:5;
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box
+            }
+            h2 {
+                font-family:'Lato';
+                color:#fff;
+                font-size:20px;
+                text-align:left
+            }
+            p {
+                display:block;
+                font-family:'Lato';
+                font-size:12px;
+                line-height:18px;
+                margin:0;
+                color:#fff;
+                text-align:left
+            }
+            figcaption {
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                padding:29px 44px;
+                background-color:rgba(26,76,110,0.5);
+                text-align:center;
+                backface-visibility:hidden;
+                -webkit-transform:rotateY(-180deg);
+                -moz-transform:rotateY(-180deg);
+                transform:rotateY(-180deg);
+                -webkit-transition:all .5s;
+                -moz-transition:all .5s;
+                transition:all .5s
+            }
+            img {
+                backface-visibility:hidden;
+                -webkit-transition:all .5s;
+                -moz-transition:all .5s;
+                transition:all .5s
+            }
+            &:hover img{
+                -webkit-transform:rotateY(180deg);
+                -moz-transform:rotateY(180deg);
+                transform:rotateY(180deg)
+            }
+            &:hover figcaption{
+                -webkit-transform:rotateY(0);
+                -moz-transform:rotateY(0);
+                transform:rotateY(0)
+            }
+        }
+    }
+
+    .about-left{
+        background-color: aliceblue;
+        .gallery{
+            .img-gallery{
+                height: 15rem;
+            }
+            .osgalery-cat-tabs li{
+                float: left;
+                margin-right: 10px;
+                display: inline-block;
+            }
+        }
+    }
+    .timeline {
+      list-style: none;
+      padding: 0;
+      position: relative;
+    }
+    .welcome{
+        text-align: center;
+        margin: 0 auto 20px;
+        width: 720px;
+    }
+
+    .biography{
+        .timeline {
+            list-style: none;
+            padding: 0;
+            position: relative;
+            li{
+                min-height: 170px;
+                position: relative;
+                margin-bottom: 100px;
+                .timeline-image{
+                    width: 170px;
+                    height: 170px;
+                    margin-left: -85px;
+
+                }
+                .timeline-panel{
+                    padding: 0 20px 20px 100px;
+                }
+                .text-muted{
+                    color: #777;
+                }
+                .timeline-heading{
+                    h4{
+                        margin-top: 0;
+                        color: inherit;
+                    }
+                }
+            }
+        }
+            background: rgb(25, 25, 25);
+                .bio-title{
+                        font-size: 36px;
+                        text-transform: uppercase;
+                        color: rgb(255, 255, 255);
+                        font-family: Oswald;
+                        padding: 20px 30px;
+                }
+                .profile-time-line{
+                        padding-bottom: 24.5%;
+                        position: relative;
+                        list-style: none outside none;
+                        margin-left: 10px;
+                }
+                ol li{
+                        height: 55%;
+                        width: 25%;
+//                        margin-left: 10px;
+                        position: relative;
+                        z-index: 100;
+//                        background: none 0px 0px repeat scroll rgb(255, 143, 112);
+                        border-width: 7px;
+                        border-style: solid;
+                        border-color: rgb(255, 255, 255);
+                        border-image: initial;
+                        border-radius: 50%;
+                        margin-top: 140px;
+                    .time{
+                            color: rgb(255, 255, 255);
+                            font-size: 30px;
+                            margin-left: 10rem;
+                            position: relative;
+                            top: 1rem;
+                            font-family: inherit;
+                    }
+                    p{
+                        width: 400px;
+                        margin-left: 10rem;
+                        color: rgb(255, 255, 255);
+                    }
+
+        }
+        .bg_1 {
+                background: url('../images/singlenews_1.jpg') repeat;
+                background-size: contain;
+                height: 135px;
+            }
+        :nth-child(1){
+            margin-top: 0px !important;
+        }
+        .after{
+                bottom: 15%;
+                content: "";
+                display: block;
+                left: 15%;
+                position: absolute;
+                right: 0px;
+                top: 5%;
+                border-left: 2px solid rgb(255, 255, 255);
+        }
+    }
+}
+
+
 [type=checkbox]+label {
     position: relative;
     height: 25px;
@@ -1976,15 +2174,25 @@ footer{
     }
     
 }
-@media (max-width: 1440px){
+@media only screen and (max-width: 1920px) and (min-width: 1080px){  //Bigger screen
+     .author{
+        .biography{
+            .after{}
+        }
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width: 900px){
     .tp-banner{
         max-height: 450px !important;
     }
     .featured-circle{
         top: 102% !important;
     }
+    .author{
+        .after{ left: 14.5%;}
+    }
 }
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     
         .left{
             margin-top: 5px;
@@ -2048,6 +2256,9 @@ footer{
     .mb-r {
         margin-bottom: 3rem;
     }
+    .timeline>li {
+        min-height: 150px;
+    }
 
 }
 
@@ -2067,6 +2278,11 @@ footer{
     .detailed_article{
         .left{
             margin-top: 5px;
+        }
+    }
+    .author{
+        .biography{
+            .after{ left:16.5%;}
         }
     }
 }
@@ -2104,6 +2320,22 @@ footer{
         }
     }
 }
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape){
+    .author{
+        .biography{
+            .after{left:13%;}
+        }
+    }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait){
+    .author{
+        .biography{
+            .after{left:16.5%;}
+        }
+    }
+}
+
 //iphone 6 plus
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
     .navbar-nav{
@@ -2127,6 +2359,7 @@ footer{
         }
     }
 
+
 }
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
     .news-data{
@@ -2135,6 +2368,11 @@ footer{
                 padding-bottom: 15%;
             }
         }
+    .author{
+        .biography{
+            .after{left:15.5%;}
+        }
+    }
 }
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) {
     .our-team-detail{
@@ -2148,6 +2386,12 @@ footer{
     .news-data{
             .article-desc{ max-height: inherit; }
         }
+
+    .author{
+        .biography{
+            .after{left:12.5%;}
+        }
+    }
 }
 
 @media only screen and (min-width : 320px) and (max-width : 568px) and (orientation:landscape){

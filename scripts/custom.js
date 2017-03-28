@@ -153,6 +153,14 @@ $(document).ready(function () {
             var self = this;
             $('body, html, .article-section').mCustomScrollbar({
                     theme:"dark-3",
+                    alwaysTriggerOffsets:false,
+                    scrollButtons:{
+						enable:true
+					},
+                    callbacks:{
+                        onTotalScrollOffset:60,
+                        onTotalScrollBackOffset:50,
+                    },
             });
 
         };
