@@ -1315,6 +1315,9 @@ h5 {
 .our-team .our-team-detail p {
   font-size: 1rem; }
 
+.grape .right h3:nth-child(1) {
+  text-align: center;
+  margin-top: 20px; }
 .grape .txt-left, .grape .detailed_article .article-section h2.header, .grape .detailed_article .article-section h3, .grape .detailed_article .article-section p, .grape .detailed_article .article-section ul, .grape .photography .article-section ul, .photography .article-section .grape ul {
   text-align: -webkit-left; }
 .grape .detailed_article .preview {
@@ -1374,35 +1377,35 @@ h5 {
 .contact-us footer {
   position: fixed; }
 
-.author .demo-3 {
+.setImgRotate, .tips .article-section, .author .demo-3 {
   position: relative;
   width: auto;
   height: auto;
   overflow: hidden;
   float: left;
   margin-right: 20px; }
-  .author .demo-3 figure {
+  .setImgRotate figure, .tips .article-section figure, .author .demo-3 figure {
     margin: 0;
     padding: 0;
     position: relative;
     cursor: pointer; }
-    .author .demo-3 figure img {
+    .setImgRotate figure img, .tips .article-section figure img, .author .demo-3 figure img {
       display: block;
       position: relative;
       z-index: 10; }
-    .author .demo-3 figure figcaption {
+    .setImgRotate figure figcaption, .tips .article-section figure figcaption, .author .demo-3 figure figcaption {
       display: block;
       position: absolute;
       z-index: 5;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-    .author .demo-3 figure h2 {
+    .setImgRotate figure h2, .tips .article-section figure h2, .author .demo-3 figure h2 {
       font-family: 'Lato';
       color: #fff;
       font-size: 20px;
       text-align: left; }
-    .author .demo-3 figure p {
+    .setImgRotate figure p, .tips .article-section figure p, .author .demo-3 figure p {
       display: block;
       font-family: 'Lato';
       font-size: 12px;
@@ -1410,7 +1413,7 @@ h5 {
       margin: 0;
       color: #fff;
       text-align: left; }
-    .author .demo-3 figure figcaption {
+    .setImgRotate figure figcaption, .tips .article-section figure figcaption, .author .demo-3 figure figcaption {
       top: 0;
       left: 0;
       width: 100%;
@@ -1425,19 +1428,20 @@ h5 {
       -webkit-transition: all .5s;
       -moz-transition: all .5s;
       transition: all 0.5s; }
-    .author .demo-3 figure img {
+    .setImgRotate figure img, .tips .article-section figure img, .author .demo-3 figure img {
       backface-visibility: hidden;
       -webkit-transition: all .5s;
       -moz-transition: all .5s;
       transition: all 0.5s; }
-    .author .demo-3 figure:hover img {
+    .setImgRotate figure:hover img, .tips .article-section figure:hover img, .author .demo-3 figure:hover img {
       -webkit-transform: rotateY(180deg);
       -moz-transform: rotateY(180deg);
       transform: rotateY(180deg); }
-    .author .demo-3 figure:hover figcaption {
+    .setImgRotate figure:hover figcaption, .tips .article-section figure:hover figcaption, .author .demo-3 figure:hover figcaption {
       -webkit-transform: rotateY(0);
       -moz-transform: rotateY(0);
       transform: rotateY(0); }
+
 .author .about-left {
   background-color: aliceblue; }
   .author .about-left .gallery .img-gallery {

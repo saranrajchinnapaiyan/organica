@@ -20,9 +20,11 @@
     <link rel="stylesheet" href="../styles/jquery-ui.css">
     <link rel="stylesheet" href="../styles/bootstrap.css">
     <link rel="stylesheet" href="../styles/bootstrap-select.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../styles/settings.css">
     <link rel="stylesheet" href="../styles/flexslider.css">
+    <link rel="stylesheet" href="../styles/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../styles/vertical.news.slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="../styles/custom.css">
 </head>
@@ -234,128 +236,178 @@
                 </div>
             </section>
             <section class="col-lg-4 col-md-12 col-sm-12 right">
-                <h3>Advertisement goes here</h3>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="pink-text pull-left"><i class="fa fa-heart"></i>&nbsp;Lifestyle</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
-                <h3>Videos you may like</h3>
-                <div class="single-news video-box">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="view no-shadow">
-                                <video controls loop>
-                                    <source src=../video/sample_MKJackson.webm type=video/webm>
-                                    <source src=../video/sample_MKJackson.ogg type=video/ogg>
-                                    <source src=../video/sample_MKJackson.mp4 type=video/mp4>
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h3>Article's Recommended For you</h3>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="pink-text pull-left"><i class="fa fa-heart"></i>&nbsp;Lifestyle</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
+              <h3 class="padd-l-15 mrg-top-1rem">Recommended Articles</h3>
+                <div class="row container-fluid ">
+                    <div class="container-fluid hiddne-lg visible-sm visible-xs">
+                        <ul class="tabs">
+                              <li><a href="javascript:void(0)"><i class="fa fa-heart"></i> Grapes </a>
+                                <ul class="menu">
+                                  <li>
+                                      <h1 class="title">Content Title</h1>
+                                      <div data-fruit="grape" class="tabSummary">
+                                          <p class="info"></p>
+                                          <a class="goto inline-block" data-more="link" title="">Go To Article</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </li>
 
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="pink-text pull-left"><i class="fa fa-camera"></i>&nbsp;Photography</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
+                              <li><a href="javascript:void(0)"><i class="fa  fa-cog"></i> Apple </a>
+                                <ul class="menu">
+<!--                                  <li><h1>Content Title</h1><p>Morbi blandit ultricies nisl sagittis malesuada. Sed porttitor rhoncus mattis. Aenean aliquam congue lectus sit amet bibendum.</p></li>-->
+                                   <li>
+                                      <h1 class="title">Content Title</h1>
+                                      <div data-fruit="apple" class="tabSummary">
+                                          <p class="info"></p>
+                                          <a class="goto inline-block" data-more="link" title="">Go To Article</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </li>
+                              <li><a href="javascript:void(0)"><i class="fa  fa-cog"></i> Orange </a>
+                                <ul class="menu">
+                                   <li>
+                                      <h1 class="title">Content Title</h1>
+                                      <div data-fruit="orange" class="tabSummary">
+                                          <p class="info"></p>
+                                          <a class="goto" data-more="link" title="">Go To Article</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </li>
+                              <li><a href="javascript:void(0)"><i class="fa  fa-cog"></i> Kiwi </a>
+                                <ul class="menu">
+                                   <li>
+                                      <h1 class="title">Content Title</h1>
+                                      <div data-fruit="kiwi" class="tabSummary">
+                                          <p class="info"></p>
+                                          <a class="goto" data-more="link" title="">Go To Article</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </li>
+                              <li><a href="javascript:void(0)"><i class="fa  fa-cog"></i> Fig Dried </a>
+                                <ul class="menu">
+                                   <li>
+                                      <h1 class="title">Content Title</h1>
+                                      <div data-fruit="fig" class="tabSummary">
+                                          <p class="info"></p>
+                                          <a class="goto" data-more="link" title="">Go To Article</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                              </li>
+                            </ul>
                     </div>
-                </div>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="orange-text pull-left"><i class="fa fa-fire"></i>&nbsp;Culture</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="cyan-text pull-left"><i class="fa fa-graduation-cap"></i>&nbsp;Education</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-news">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="view">
-                                <figure figcaption="Single News Article one"><img src="../images/singlenews_1.jpg" alt="singlenews_1" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <a href="#" title="Go to">
-                                <p>How to prepare for an Mount Travel prepare for an Mount Travel prepare for an Mount Travel prepare</p>
-                            </a>
-                            <h5 class="purple-text pull-left"><i class="fa fa-map"></i>&nbsp;Adventure</h5>
-                            <date class="pull-right">24-01-2017</date>
-                        </div>
-                    </div>
-                </div>
+                    <div class="col-md-6 mrg-top-1rem hidden-sm hidden-xs">
+                        <ul class="news-headlines">
+                            <li class="nh-anim selected">Black grapes are delicious, But did you also know that black grapes are just as healthy...
+                                <h5 class="blue-text"><i class="fa fa-plane"></i> Grapes</h5>
+                            </li>
+                            <li class="nh-anim">An apple won’t replace your toothbrush, but biting and chewing an apple stimulates...
+                                <h5 class="purple-text"><i class="fa fa-heart"></i> Apple</h5>
+                            </li>
+                            <li class="nh-anim">Avocados are actually very high in potassium… with a 100 gram (3.5 ounce) serving containing 14% of the RDA...
+                                <h5 class="green-text"><i class="fa fa-stumbleupon-circle"></i> Avacoda</h5>
+                            </li>
+                            <li class="nh-anim">You might have heard of goji berries and their health benefits. But do they live up these claims...
+                                <h5 class="black-text"><i class="fa fa-lemon-o"></i> Goji Berries</h5>
+                            </li>
+                            <li class="nh-anim">The blueberry is a flowering shrub that produces berries that are colored blue to purple known as blueberries...
+                                <h5 class="darkblue-text"><i class="fa fa-leaf"></i> BlueBerry</h5>
+                            </li>
+                            <li class="nh-anim">In a 2009 study that was published in the Journal of Medical Food...
+                                <h5 class="orange-text"><i class="fa fa-superpowers"></i> Orange</h5>
+                            </li>
+                            <li class="nh-anim">Watermelons contain a lot of potassium, which is very helpful in cleaning...
+                                <h5 class="purple-text"><i class="fa fa-yelp"></i> Cherry</h5>
+                            </li>
+                            <li class="nh-anim">Oranges are a good source of several vitamins and minerals...
+                                <h5 class="brown-text"><i class="fa fa-leaf"></i> Kiwi</h5>
+                            </li>
+                            <li class="nh-anim">Let us count the ways strawberries are good for you...
+                                <h5 class="mango-text"><i class="fa fa-pagelines"></i> MangO</h5>
+                            </li>
 
+                        </ul>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                    <div class="news-preview">
+                            <div class="news-content" id="grapes">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-black-seedless-grapes.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 125 mL): 53 calories, less than 1 g fibre, source of manganese.</a>
+                                </p>
+                                <p>Each 1-cup serving of fresh grapes contains 22 micrograms of vitamin K. For a man, this amount supplies 18 percent of his recommended daily allowance.</p>
+                            </div>
+                            <div class="news-content" id="apple">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-apple.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (single medium Apple): 95 calories, 4 g fibre, Manganese, copper and vitamins A, E, B1, B2 and B6.</a>
+                                </p>
+                                <p>An apple won’t replace your toothbrush, but biting and chewing an apple stimulates the production of saliva in your mouth, reducing tooth decay by lowering the levels of bacteria.</p>
+                            </div>
+                            <div class="news-content" id="avocado">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-avocado.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value in single 3.5 ounce (100 gram) : 160 calories, less than 15 g of healthy fats, source of Potassium.</a>
+                                </p>
+                                <p>Avocados are actually very high in potassium… with a 100 gram (3.5 ounce) serving containing 14% of the RDA, compared to 10% in bananas, which are a typical high potassium food.</p>
+                            </div>
+                            <div class="news-content" id="gojiberry">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-gojiberry.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value : Vitamin C, 8 essential amino acids, source of antioxidants and zinc.</a>
+                                </p>
+                                <p>You might have heard of goji berries and their health benefits. But do they live up these claims? Their history as a medicinal plant has roots in ancient China. Many people use goji berries to treat eye, liver, and kidney ailments.</p>
+                            </div>
+                            <div class="news-content" id="blueberry">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-blueberry.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 148 gm): 84 calories, 4g fibre, source of manganese 25%.</a>
+                                </p>
+                                <p>The blueberry is a flowering shrub that produces berries that are colored blue to purple, also known as blueberries. It is strongly related to similar shrubs, such as those that produce cranberries and huckleberries.</p>
+                            </div>
+                            <div class="news-content" id="cherry">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-cherry.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 100 gm): 46 calories, less than 4.6 g fibre.</a>
+                                </p>
+                                <p>In a 2009 study that was published in the Journal of Medical Food, rats that received whole tart cherry powder for 90 days, mixed into a high-fat diet, didn’t gain as much weight or build up as much body fat as rats that didn’t receive cherries.</p>
+                            </div>
+                            <div class="news-content" id="watermelon">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-watermelon.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 100 gm): 30 calories, source of Potassium 112 g, Vitamin A, B-12, D.</a>
+                                </p>
+                                <p>Watermelons contain a lot of potassium, which is very helpful in cleaning or washing out the toxic depositions in the kidney. Moreover, it is helpful in reducing the concentration of uric acid in the blood, thereby reducing the chances of kidney damage and the formation of renal calculi in that organ.</p>
+                            </div>
+                            <div class="news-content" id="orange">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-orange.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1 cup/ 100 gm): 47 calories, less than 1 g fibre, Water 87%.</a>
+                                </p>
+                                <p>Oranges are an excellent source of vitamin C. One large orange can provide over 100% of the daily recommended intake. Thiamin: One of the B-vitamins, also called vitamin B1. Found in a wide variety of foods.</p>
+                            </div>
+                            <div class="news-content" id="strawberry">
+                                <p>
+                                    <a href="what-are-the-health-benefits-of-strawberry.html"><img title="" src="../images/singlenews_1.jpg" alt="singlenews_1" />Nutritional value (1/2 cup/ 100 gm): 33 calories, source of Potassium 153 g, Vitamin A, B-12, D.</a>
+                                </p>
+                                <p>They are full of fibre, and one cup (250 mL) contains an entire day’s worth of vitamin C, which helps strengthen the immune system and protects connective tissue. Berries may help keep blood sugar in check.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
     </section>
-    <footer class="footer">
-        <div class="copyright padd15">
-            <i class="fa fa-copyright"></i> Domain.com 2017 All rights reserved.
-            <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span>
+   <footer class="footer">
+        <div class="social-section">
+            <ul>
+                <li><a class="btn-fb btn" href="javascript:void(0)" onclick="Home.prototype.fbShare()"><i class="fa fa-facebook left"></i> &nbsp;&nbsp;Facebook</a></li>
+                <li><a class="btn-tw btn" href="#"><i class="fa fa-twitter left"></i> Twitter &nbsp;</a></li>
+                <li><a class="btn-gplus btn" href="#"><i class="fa fa-google-plus left"></i> Google+ </a></li>
+                <li><a class="btn-li btn" href="#"><i class="fa fa-linkedin left"></i> LinkedIn </a></li>
+                <li><a class="btn-dribbble btn" href="#"><i class="fa fa-facebook left"></i>Dribbble &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a class="btn-pin btn" href="#"><i class="fa fa-pinterest left"></i>Pinterest</a></li>
+                <li><a class="btn-unique btn" href="#"><i class="fa fa-codepen left"></i> CodePen &nbsp;&nbsp;</a></li>
+                <li><a class="btn-email btn" href="#"><i class="fa fa-github left"></i> GitHub &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a class="btn-comm btn" href="#"><i class="fa fa-comments-o left"></i> Support </a></li>
+            </ul>
         </div>
+        <div class="copyright padd10"> <i class="fa fa-copyright"></i> <span class="domain-color">iBeingHuman.com</span> 2017 All rights reserved. <span><i>The content on this website is intended for informational and educational purposes only. It is recommended to Consult a doctor for medical advice, treatment or diagnosis.</i></span> </div>
     </footer>
     <!-- JavaScript -->
     <script type="text/javascript" src="../scripts/jquery.min.js"></script>
@@ -366,6 +418,8 @@
     <script type="text/javascript" src="http://cssslider.com/sliders/demo-8/engine1/gestures.js"></script>
     <script type="text/javascript" src="../scripts/jquery.flexslider.js"></script>
     <script type="text/javascript" src="../scripts/viewportchecker.js"></script>
+    <script type="text/javascript" src="../scripts/vertical.news.slider.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery.mCustomScrollbar.min.js"></script>
     <script type="text/javascript" src="../scripts/custom.js"></script>
 
     <script>

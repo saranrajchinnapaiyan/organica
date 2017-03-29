@@ -1195,7 +1195,10 @@ h5 {
 .tips{
     .article-section{
         @extend .setScrollArticle;
-        figure{ margin:10px 0px;}
+        figure{
+            margin:10px 0px;
+        }
+        @extend .setImgRotate;
     }
     ul{
         @extend .marg-l-2rem;
@@ -1478,7 +1481,12 @@ h5 {
 //<span class="vitamin">
 
 .grape{
-    
+    .right{
+        h3:nth-child(1){
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
     .txt-left{
         text-align: -webkit-left;
     }
@@ -1503,6 +1511,7 @@ h5 {
         .article-img{
             img{
                 width: 99%;
+//                height: 45vh;
             }
         }
         .article-section{
@@ -1578,10 +1587,8 @@ h5 {
     }
 }
 
-
-//About author
-.author{
-.demo-3 {
+//Set Rotate Image
+.setImgRotate {
     position:relative;
     width:auto;
     height:auto;
@@ -1655,6 +1662,13 @@ h5 {
             }
         }
     }
+
+//About author
+.author{
+    .demo-3{
+        @extend .setImgRotate;
+    }
+
 
     .about-left{
         background-color: aliceblue;

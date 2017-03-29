@@ -27,7 +27,7 @@ $(document).ready(function () {
                 return navigator.userAgent.match(/iPad/i);
             },
             any: function() {
-                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                return (Home.prototype.isMobile.Android() || Home.prototype.isMobile.BlackBerry() || Home.prototype.isMobile.iOS() || Home.prototype.isMobile.Opera() || Home.prototype.isMobile.Windows());
             }
         };
 
@@ -93,6 +93,11 @@ $(document).ready(function () {
             });
         };
 
+        Home.prototype.addClasstoDetailedArticleView = function(){
+            var self = this;
+            var dom = $('.detailed_article').find('.article-body');
+            $(dom).removeClass('container').addClass('container-fluid');
+        };
         Home.prototype.setIpadAlignment = function(){
             var self = this;
             var d = $('.detailed_article .right .single-news, .right h3');
@@ -151,7 +156,11 @@ $(document).ready(function () {
         };
         Home.prototype.setmCustomScrollBar = function(){
             var self = this;
-            $('body, html, .article-section').mCustomScrollbar({
+            var mobBody = Home.prototype.isMobile.any() ? $('body, html') : '';
+            var articlePart =  $('.article-section');
+
+            var target = (mobBody != "") ? $(articlePart,mobBody) : $(articlePart);
+            $(target).mCustomScrollbar({
                     theme:"dark-3",
                     alwaysTriggerOffsets:false,
                     scrollButtons:{
@@ -169,6 +178,7 @@ $(document).ready(function () {
             var self = this;
             self.setFlexslider();
             self.addClassToSlider();
+            self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
             self.setIpadAlignment();
             self.showAccordionTab();
