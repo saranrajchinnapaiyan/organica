@@ -91,9 +91,10 @@ a {
    background: #ededed;
    position: relative;
    z-index: 5;
-   margin-left: -31px;
+/*   margin-left: -31px;*/
    min-height: 304px;
    position: relative;
+    border-left: none;
 }
 
   .news-preview img {
@@ -173,5 +174,5 @@ a {
 }
 
 @media only screen and (max-width : 1440px){
-    .news-preview{width:120%;}
+    .news-preview{width:100%;}
 }

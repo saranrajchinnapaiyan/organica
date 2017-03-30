@@ -31,11 +31,23 @@ $(document).ready(function () {
             }
         };
 
+        Home.prototype.isUndefined = function(obj) {
+            return obj === void 0;
+        };
+        Home.prototype.isNull = function(obj) {
+             return obj === null;
+        };
+         Home.prototype.isObject = function(obj) {
+            return obj === Object(obj);
+          };
+
         Home.prototype.setFlexslider = function() {
+            var w = (Home.prototype.isMobile.any() ? 200 : 250)
+            var margin = (Home.prototype.isMobile.any() ? 20 : 25)
             $('.flexslider').flexslider({
                 animation: "slide",
-                itemWidth: 250,
-                itemMargin: 25,
+                itemWidth: w,
+                itemMargin: margin,
                 animationLoop: true,
                 slideshow: true,
                 pauseOnHover: true,
@@ -89,7 +101,7 @@ $(document).ready(function () {
             var self = this;
             $('.article-preview').find('.col-lg-6').each(function (index, dom) {
                 var self = this;
-                $(dom).removeClass('preview_article_' + index).addClass('preview_article_' + index);
+                $(dom).removeClass('intro-articles preview_article_' + index).addClass('intro-articles preview_article_' + index);
             });
         };
 
@@ -160,7 +172,8 @@ $(document).ready(function () {
             var articlePart =  $('.article-section');
 
             var target = (mobBody != "") ? $(articlePart,mobBody) : $(articlePart);
-            $(target).mCustomScrollbar({
+
+            $('.article-section,body,html').mCustomScrollbar({
                     theme:"dark-3",
                     alwaysTriggerOffsets:false,
                     scrollButtons:{
@@ -173,6 +186,30 @@ $(document).ready(function () {
             });
 
         };
+        Home.prototype.addClassRecomdedArticle = function(){
+            var self = this;
+            var dom = $('.detailed_article .right');
+                $(dom).find('.col-md-6:first').addClass('padd-r-0');
+                $(dom).find('.col-md-6:last').addClass('padd-l-0');
+        };
+        Home.prototype.addClassToFooterSection = function(){
+            var self = this;
+            var f = $('.footer .social-section');
+            $(f).addClass('row');
+        };
+
+        Home.prototype.setBorderAdjustment = function(){
+            var self = this;
+            var dom = $('.news-preview');
+
+            Home.prototype.isMobile.any() ? $(dom).addClass('adjust-device') : $(dom).removeClass('adjust-device')
+        };
+
+        Home.prototype.addClassToRemoveDevicePadding = function(){
+            var self = this;
+            var dom = $('.article_wrapper .left');
+            (Home.prototype.isMobile.any() ? $(dom).addClass('padd-r-0') : $(dom).removeClass('padd-r-0'))
+        };
 
         Home.prototype.init = function(){
             var self = this;
@@ -180,10 +217,19 @@ $(document).ready(function () {
             self.addClassToSlider();
             self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
+
+            //!Alignment for iPad
             self.setIpadAlignment();
+
+            //!Alignment for devices
             self.showAccordionTab();
             self.setAccordionTabInfo();
             self.setmCustomScrollBar();
+            self.setBorderAdjustment();//For Device, recommended articles left border+adjusment
+
+            self.addClassRecomdedArticle();
+            self.addClassToRemoveDevicePadding();
+            self.addClassToFooterSection();
         };
 
         //Add your object to global scope
@@ -192,6 +238,12 @@ $(document).ready(function () {
         this.Home.prototype.init();
 
     }(this || {}));
+
+    $(window).on("orientationchange",function(){
+        //Always call the init, so that no need of refreshing page
+        console.log('Orientation changed, caaling init()');
+        Home.prototype.init();
+    });
 
 });
 

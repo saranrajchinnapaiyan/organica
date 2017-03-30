@@ -149,6 +149,10 @@ ol li {
 .padd-left5p {
   padding-left: 5px; 
 }
+.adjust-device{
+    border-left: 1px solid #999;
+    margin-left:10px;
+}
 .marg-t10{ margin-top:10px }
 .marg-b10{ margin-bottom:10px }
 .marg-b15{ margin-bottom:15px }
@@ -162,6 +166,8 @@ ol li {
 .padd15{
     padding:15px;
 }
+.padd-r-0{ padding-right: 0px; }
+.padd-l-0{ padding-left: 0px; }
 .padd-l-15{ padding-left: 15px; }
 .inline{
     display: inline;
@@ -1052,6 +1058,10 @@ h5 {
 
 .detailed_article{
     background: #f7f7f7;
+    .intro-articles{
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+            margin-bottom: 20px;
+    }
     .container{
             text-align: -webkit-center;
 //            margin: auto 0;
@@ -1064,7 +1074,7 @@ h5 {
     .preview{
         border-bottom: 1px solid #e0e0e0;
         margin-bottom: 2.5vh;
-        @extend .shadow;
+
     }
     .mask{
         margin-bottom: 2rem;
@@ -1096,7 +1106,7 @@ h5 {
         }
         .article-desc{
             padding-bottom: 5vh;
-            max-height: 20vh;    
+//            max-height: 20vh;
             word-break: break-word;
         }
         .goto-article{
@@ -1304,8 +1314,9 @@ h5 {
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .person{
+        margin: 10px 0;
     &:hover .details{
-        height: 115%;
+        height: 100%;
         border-bottom: 5px solid #0084bf;
         z-index: 10;
         -webkit-opacity: 1;
@@ -1343,7 +1354,7 @@ h5 {
         transition: all .4s ease;
         height: 0px;
         p{
-            margin-top:10%;
+            margin-top:5%;
         }
         h5{
             color:#fff;
@@ -1351,7 +1362,7 @@ h5 {
     }
     .social {
         margin: 0 auto;
-        margin-top: 20%;
+        margin-top: 5%;
         padding-bottom: 20px;
         text-align: center;
         overflow: hidden;
@@ -2123,6 +2134,11 @@ footer{
 ------------------------------------------------------- */
 
 @media (max-width: 768px) { //phones
+    .flex-control-paging {
+        li{
+            a{ height: 5px; width:5px; background: #0084bf;}
+        }
+    }
   .bootstrap-select .dropdown-menu,
   .appoform .btn-white,
   .ui-widget-content {
@@ -2363,7 +2379,7 @@ footer{
         .article-section ul li{ line-height: 25px;}
         .preview{ margin-bottom: 5%; }
         .news-data{
-            .article-desc{ max-height: inherit; padding-bottom: 15% !important;}
+            .article-desc{ max-height: inherit; padding-bottom: 10% !important;}
             
         }
     }
