@@ -198,6 +198,15 @@ $(document).ready(function () {
             $(f).addClass('row');
         };
 
+        Home.prototype.addAltTags = function(){
+            var self = this;
+            var imges = $('img');
+                $(imges).each(function(index, ele){
+                    if(ele.getAttribute('alt') == '')
+                        ele.setAttribute("alt","Health benifits of fruits");
+                });
+        };
+
         Home.prototype.setBorderAdjustment = function(){
             var self = this;
             var dom = $('.news-preview');
@@ -217,6 +226,9 @@ $(document).ready(function () {
             self.addClassToSlider();
             self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
+
+            //For SEO Optimaization
+            self.addAltTags();
 
             //!Alignment for iPad
             self.setIpadAlignment();
