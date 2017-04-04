@@ -885,6 +885,8 @@ blockquote,
   position: relative;
   padding: 0; }
 
+.thank-you,
+.error-msg,
 .tp-bannertimer {
   display: none; }
 
@@ -1565,6 +1567,9 @@ h5 {
   -ms-transition: .2s;
   transition: .2s; }
 
+#sendail-form [type=checkbox] + label:before {
+  top: 7px; }
+
 [type=checkbox]:checked + label:before {
   top: -4px;
   left: -3px;
@@ -1662,7 +1667,7 @@ footer {
   border: 0;
   outline: 0;
   resize: none;
-  margin-top: 5px; }
+  margin-top: 15px; }
   .float-label input + label, .float-label textarea + label {
     position: absolute;
     top: 15px;

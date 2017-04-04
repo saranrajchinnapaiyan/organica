@@ -159,7 +159,7 @@
                 <div class="container article-body">
                     <div class="preview thumb-1">
                         <h1>A Reinvention of wilderness adventure!</h1>
-                        <p>by <i>Admin</i> Last Updated: Oct 21, 2013</p>
+                        <p>by <i>Admin</i> Last Updated: <span class="date">Oct 21, 2013</span></p>
                         <div class="article-img">
                             <a href="javascript:void(0)" title="Artcile about Adventure">
                                 <img src="../images/adventure-detailed-article-banner.jpg" alt="adventure-detailed-article-banner Thubnail" />
@@ -394,66 +394,6 @@
             jQuery('#slides.articles').addClass("hidden").viewportChecker({
                 classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
                 offset: 100
-            });
-        });
-    </script>
-    <script>
-        jQuery(document).ready(function() {
-            jQuery('.tp-banner').show().revolution({
-                dottedOverlay: "none",
-                delay: 16000,
-                startwidth: 1170,
-                startheight: 600,
-                hideThumbs: 200,
-                thumbWidth: 100,
-                thumbHeight: 50,
-                thumbAmount: 5,
-                navigationType: "none",
-                navigationArrows: "solo",
-                navigationStyle: "preview2",
-                touchenabled: "on",
-                onHoverStop: "on",
-                swipe_velocity: 0.7,
-                swipe_min_touches: 1,
-                swipe_max_touches: 1,
-                drag_block_vertical: false,
-                parallax: "mouse",
-                parallaxBgFreeze: "on",
-                parallaxLevels: [10, 7, 4, 3, 2, 5, 4, 3, 2, 1],
-                parallaxDisableOnMobile: "off",
-                keyboardNavigation: "off",
-                navigationHAlign: "center",
-                navigationVAlign: "bottom",
-                navigationHOffset: 0,
-                navigationVOffset: 20,
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
-                shadow: 0,
-                fullWidth: "on",
-                fullScreen: "off",
-                spinner: "spinner4",
-                stopLoop: "off",
-                stopAfterLoops: -1,
-                stopAtSlide: -1,
-                shuffle: "off",
-                autoHeight: "off",
-                forceFullWidth: "off",
-                hideThumbsOnMobile: "off",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideThumbsUnderResolution: 0,
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                startWithSlide: 0,
-                fullScreenOffsetContainer: ""
             });
         });
     </script>
