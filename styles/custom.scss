@@ -1062,7 +1062,10 @@ h5 {
 .detailed_article{
     background: #f7f7f7;
     .intro-articles{
+        .preview{
             box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+        }
+//            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
             margin-bottom: 20px;
     }
     .container{
@@ -1104,6 +1107,8 @@ h5 {
     
     .news-data{        
         margin: auto 10px;
+        padding: 5px 15px;
+        border-top: 2px solid #e0e0e0;
         >h5, p{
             display: inline-block;
         }
