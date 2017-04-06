@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="styles/custom.css"> </head>
 
-<body>
+<body class="the-post">
     <!--http://www.spotify-thedrop.com/-->
     <!--http://www.crit-research.it/-->
     <!--welcome video for about http://www.yaseralsiksik.com/-->
@@ -405,7 +405,7 @@
     <!--    http://mdbootstrap.com/sections/magazine-sections/ -->
     <!--    article content http://ofgorganic.org/faqs/an-introduction-to-organic-food-and-farming/    -->
     <!--    article topics http://www.getinfrontcommunications.com/101-topics-to-write-about-in-your-articles-newsletters-and-blogs.php-->
-    <section class="section container-fluid article-preview detailed_article">
+    <section class="section container-fluid article-preview detailed_article" id="the-post-inner">
         <section class="row detail">
             <section class="col-lg-8 col-md-12 col-sm-12 left">
                 <div class="container-fluid">
@@ -418,7 +418,7 @@
                         <div class="article-img">
                             <a href="life-style/traveling.html" title="Things you should know about Travel">
 <!--                                <img src="images/travel-detailed-article-banner.jpg" alt="Tips and Tricks you should know about Travel" />-->
-                                <?xml version="1.0" encoding="utf-8"?>
+
                                 <!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                                 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
@@ -3621,6 +3621,7 @@
     <script type="text/javascript" src="scripts/jquery.flexslider.js"></script>
     <script type="text/javascript" src="scripts/vertical.news.slider.min.js"></script>
     <script type="text/javascript" src="scripts/browserselector.js"></script>
+    <script type="text/javascript" src="scripts/scrollgress.js"></script>
     <script type="text/javascript" src="scripts/jquery.mCustomScrollbar.min.js"></script>
     <script type="text/javascript" src="scripts/custom.js"></script>
     <script>
@@ -3717,6 +3718,27 @@
                 fullScreenOffsetContainer: ""
             });
         });
+        $(document).ready(function() {
+            setTimeout(function(){
+                $('body').scrollgress({color: '#E74C3C'});
+            },1000);
+        });
+
+//        $(document).on('ready', function() {
+//              var winHeight = $(window).height(),
+//                  docHeight = $(document).height(),
+//                  progressBar = $('progress'),
+//                  max, value;
+//
+//              /* Set the max scrollable area */
+//              max = docHeight - winHeight;
+//              progressBar.attr('max', max);
+//
+//              $(document).on('scroll', function(){
+//                 value = $(window).scrollHeight();
+//                 progressBar.attr('value', value);
+//              });
+//            });
     </script>
 </body>
 

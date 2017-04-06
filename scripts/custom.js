@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $the_post		  = jQuery('.the-post'),
+    $window           = jQuery(window),
+
     $("#sendMail").on('click', function () {
         var self = this;
         var myObj = {};
@@ -261,6 +264,29 @@ $(document).ready(function () {
 //                href: 'https://ibeinghuman.herokuapp.com/health-wellbeing/what-are-the-health-benefits-of-apple.html',
 //              }, function(response){});
         };
+        Home.prototype.setProgressIndicator = function(){
+//            var value = $(window).scrollTop();
+//            $('progress').attr('value', value);
+//            var winHeight = $(window).height(),
+//                docHeight = $(document).height();
+//                max = docHeight - winHeight;
+//                $('progress').attr('max', max);
+        };
+        Home.prototype.setReaderIndicator = function(){
+            console.log('indicator scrolling');
+            var reading_content = $the_post.find( '#the-post-inner');
+            var content_height	= reading_content.height();
+            var window_height	= $window.height();
+            var percent 		= 0,
+                content_offset	= reading_content.offset().top,
+                window_offest	= $window.scrollTop();
+
+                if (window_offest > content_offset) {
+                    percent = 100 * (window_offest - content_offset) / (content_height - window_height);
+                }
+                jQuery('#reading-position-indicator').css('width', percent + '%');
+
+        };
 
         Home.prototype.fbShare = function (url) {
             //              FB.ui({
@@ -288,8 +314,12 @@ $(document).ready(function () {
                     enable: true
                 }
                 , callbacks: {
-                    onTotalScrollOffset: 60
-                    , onTotalScrollBackOffset: 50
+                    onTotalScrollOffset: 60,
+                    onTotalScrollBackOffset: 50,
+                    whileScrolling : function(){
+                        //self.setReaderIndicator();
+                        self.setProgressIndicator();
+                    }
                 , }
             , });
         };
@@ -327,6 +357,8 @@ $(document).ready(function () {
             self.addClassToSlider();
             self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
+            //self.setReaderIndicator();
+            self.setProgressIndicator();
             //For SEO Optimaization
             self.addAltTags();
             //!Alignment for iPad
@@ -334,7 +366,7 @@ $(document).ready(function () {
             //!Alignment for devices
             self.showAccordionTab();
             self.setAccordionTabInfo();
-            self.setmCustomScrollBar();
+            //self.setmCustomScrollBar();
             self.setBorderAdjustment(); //For Device, recommended articles left border+adjusment
             self.addClassRecomdedArticle();
             self.addClassToRemoveDevicePadding();
@@ -363,7 +395,7 @@ $(document).ready(function () {
         return o;
     };
 
-        $(window).on("orientationchange", function () {
+    $(window).on("orientationchange", function () {
         //Always call the init, so that no need of refreshing page
         console.log('Orientation changed, caaling init()');
         Home.prototype.init();
