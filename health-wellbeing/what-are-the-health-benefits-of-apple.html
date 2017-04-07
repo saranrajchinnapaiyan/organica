@@ -37,6 +37,16 @@
     <!--For Article http://demo.themeruby.com/?theme=maple-->
     <!--For Carousals http://cssslider.com/bootstrap-carousel-8.html-->
     <!--Floatable css forms https://css-tricks.com/float-labels-css/    -->
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=290230658076387";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
     <div id="loader">
         <div class="loader-container">
             <img src="../images/load.gif" alt="" class="loading spinner">
@@ -365,6 +375,9 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section class="container-fluid">
+                <div class="fb-comments" data-href="http://ibeinghuman.com" data-width="100%" data-numposts="10"></div>
             </section>
         </section>
     </section>
