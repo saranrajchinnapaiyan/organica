@@ -272,6 +272,23 @@ $(document).ready(function () {
 //                max = docHeight - winHeight;
 //                $('progress').attr('max', max);
         };
+        Home.prototype.setArticleDate = function(){
+            var self = this;
+            var dom = $('.article-body span.date');
+            var m_names = new Array("Jan", "Feb", "Mar",
+                "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+                "Oct", "Nov", "Dec");
+                var d = new Date();
+                var curr_date = d.getDate();
+                var curr_month = d.getMonth();
+                var curr_year = d.getFullYear();
+                $(dom).text(m_names[curr_month] + "-" + (curr_date - 2) + "-" + curr_year);
+        };
+        Home.prototype.deviceAlignment = function(){
+            var self = this;
+            if(self.isMobile.any())
+                $('.intro-articles').addClass('padd0');
+        };
         Home.prototype.setReaderIndicator = function(){
             console.log('indicator scrolling');
             var reading_content = $the_post.find( '#the-post-inner');
@@ -357,16 +374,21 @@ $(document).ready(function () {
             self.addClassToSlider();
             self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
+            self.setArticleDate();
             //self.setReaderIndicator();
             self.setProgressIndicator();
+
             //For SEO Optimaization
             self.addAltTags();
+
             //!Alignment for iPad
             self.setIpadAlignment();
+
             //!Alignment for devices
+            self.deviceAlignment();
             self.showAccordionTab();
             self.setAccordionTabInfo();
-            //self.setmCustomScrollBar();
+            self.setmCustomScrollBar();
             self.setBorderAdjustment(); //For Device, recommended articles left border+adjusment
             self.addClassRecomdedArticle();
             self.addClassToRemoveDevicePadding();
