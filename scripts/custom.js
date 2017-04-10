@@ -376,7 +376,7 @@ $(document).ready(function () {
             self.addClassToArticlePreview();
             self.setArticleDate();
             //self.setReaderIndicator();
-            self.setProgressIndicator();
+            //self.setProgressIndicator();
 
             //For SEO Optimaization
             self.addAltTags();

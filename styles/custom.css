@@ -1037,6 +1037,8 @@ h5 {
 
 .detailed_article {
   background: #f7f7f7; }
+  .detailed_article .article-shareblock {
+    display: none; }
   .detailed_article .intro-articles {
     margin-bottom: 20px; }
     .detailed_article .intro-articles .preview {
