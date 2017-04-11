@@ -153,7 +153,8 @@ ol li {
     border-left: 1px solid #999;
     margin-left:10px;
 }
-.marg-t10{ margin-top:10px }
+.marg-t20{ margin-top:20px; }
+.marg-t10{ margin-top:10px; }
 .marg-b10{ margin-bottom:10px }
 .marg-b15{ margin-bottom:15px }
 .marg-l-2rem{ margin-left:2rem; }
@@ -1686,6 +1687,18 @@ h5 {
         }
     }
 
+//About Right part in index
+.contact_wrapper{
+    @extend .marg-t20;
+    .about-holder{
+        @extend .text-centre;
+        .about-img{
+            margin: 20px 0px;
+                img{ margin: 0 auto;}
+        }
+    }
+}
+
 //About author
 .author{
     .demo-3{
@@ -2108,10 +2121,18 @@ footer{
     background-image: linear-gradient(to bottom, #109fff  0%, #687b70  100%);
   }
 
-  a:before{
-    content:"\f13a";
+  .tabSummary a:before{
+    content: "\f0a4";
+    position: absolute;
+    top:11px;
+//    right:  -110px;
+    font-family:fontawesome;
+    font-size:17px;
+  }
+    a:before{
+    content:"\f064";
     position:absolute;
-    top:19px;
+    top:11px;
     right:30px;
     font-family:fontawesome;
     font-size:17px;

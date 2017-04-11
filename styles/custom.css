@@ -148,6 +148,9 @@ ol li {
   border-left: 1px solid #999;
   margin-left: 10px; }
 
+.marg-t20, .contact_wrapper {
+  margin-top: 20px; }
+
 .marg-t10 {
   margin-top: 10px; }
 
@@ -187,7 +190,7 @@ ol li {
 .inline-block {
   display: inline-block !important; }
 
-.text-centre, .about-me .about-title h3, .our-team .section-hint {
+.text-centre, .about-me .about-title h3, .our-team .section-hint, .contact_wrapper .about-holder {
   text-align: center; }
 
 .rounded-circle {
@@ -1466,6 +1469,11 @@ h5 {
       -moz-transform: rotateY(0);
       transform: rotateY(0); }
 
+.contact_wrapper .about-holder .about-img {
+  margin: 20px 0px; }
+  .contact_wrapper .about-holder .about-img img {
+    margin: 0 auto; }
+
 .author .about-left {
   background-color: aliceblue; }
   .author .about-left .gallery .img-gallery {
@@ -1786,10 +1794,16 @@ footer {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #109fff), color-stop(1, #687b70));
     background-image: -webkit-linear-gradient(top, #D1384A 0%, #872430 100%);
     background-image: linear-gradient(to bottom, #109fff 0%, #687b70 100%); }
-  .tabs a:before {
-    content: "\f13a";
+  .tabs .tabSummary a:before {
+    content: "\f0a4";
     position: absolute;
-    top: 19px;
+    top: 11px;
+    font-family: fontawesome;
+    font-size: 17px; }
+  .tabs a:before {
+    content: "\f064";
+    position: absolute;
+    top: 11px;
     right: 30px;
     font-family: fontawesome;
     font-size: 17px; }

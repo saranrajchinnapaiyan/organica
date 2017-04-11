@@ -200,6 +200,7 @@ $(document).ready(function () {
             , };
             return tabinfo;
         };
+
         Home.prototype.addClassToSlider = function () {
             var self = this;
             $('ul#slides li').each(function (index, ele) {
@@ -419,7 +420,14 @@ $(document).ready(function () {
 
     $(window).on("orientationchange", function () {
         //Always call the init, so that no need of refreshing page
-        console.log('Orientation changed, caaling init()');
-        Home.prototype.init();
+        console.log('Orientation changed, calling init()');
+        //For Device
+        Home.prototype.deviceAlignment();
+        Home.prototype.setBorderAdjustment();
+        Home.prototype.addClassToRemoveDevicePadding();
+
+        //For iPad
+        Home.prototype.setIpadAlignment();
+
     });
 });
