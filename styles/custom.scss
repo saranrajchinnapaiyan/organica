@@ -115,6 +115,10 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+
+.glyphicon-apple:before {
+    content: "\f8ff";
+}
 .w100{
     width:100%;
 }
@@ -179,7 +183,8 @@ ol li {
 }
 
 .text-centre{
-    text-align: center;
+    text-align: -webkit-center;
+
 }
 .rounded-circle {
     border-radius: 50%;
@@ -1194,7 +1199,7 @@ h5 {
         a{ text-decoration: underline !important;}
         h3,a{ color:#fff; }        
         .bubbling-circle-sm{ width: 8em; height: 8em; z-index: 999;}
-        .featured-media-item-circle{ background-image: url("../images/singlenews_1.jpg"); }
+//        .featured-media-item-circle{ background-image: url("../images/singlenews_1.jpg"); }
     }
     .news-preview{ margin-left: -31px }
     
@@ -1691,10 +1696,25 @@ h5 {
 .contact_wrapper{
     @extend .marg-t20;
     .about-holder{
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+        .about-decorate-icons{
+            @extend .text-centre;
+        }
+        .about-content-entry{
+            text-align: -webkit-center;
+            margin-left: 16%;
+            padding-top: 0px;
+            line-height: 25px;
+        }
         @extend .text-centre;
         .about-img{
+//            border: 1px solid #000;
             margin: 20px 0px;
-                img{ margin: 0 auto;}
+                img{
+                    margin: 0 auto;
+                    box-shadow: 10px 15px 11px 5px rgba(0, 0, 0, 0.18), 10px 14px 15px 10px rgba(0, 0, 0, 0.15);
+                    visibility: visible;
+                }
         }
     }
 }
@@ -2264,11 +2284,24 @@ footer{
     }
     
 }
+//Laptop with HiDPi Screen
 @media only screen and (max-width: 1920px) and (min-width: 1080px){  //Bigger screen
      .author{
         .biography{
             .after{}
         }
+    }
+      //set heigh for sample preview articles
+    .detailed_article {
+        .preview{ height: 920px;}
+    }
+}
+
+//Laptop with MDPI Screen
+@media only screen and (max-width: 1280px) and (min-width: 800px){
+    //set heigh for sample preview articles
+    .detailed_article {
+        .preview{ height: 920px;}
     }
 }
 @media only screen and (max-width: 1440px) and (min-width: 900px){
@@ -2280,6 +2313,14 @@ footer{
     }
     .author{
         .after{ left: 14.5%;}
+    }
+    //set heigh for sample preview articles
+    .detailed_article {
+        .preview{ height: 920px;}
+    }
+     //set heigh for sample preview articles
+    .detailed_article {
+        .preview{ height: 920px;}
     }
 }
 @media only screen and (min-width: 992px) {

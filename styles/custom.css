@@ -111,6 +111,9 @@ ol li {
   border: 0 !important; }
 
 /*common classes*/
+.glyphicon-apple:before {
+  content: "\f8ff"; }
+
 .w100 {
   width: 100%; }
 
@@ -190,8 +193,8 @@ ol li {
 .inline-block {
   display: inline-block !important; }
 
-.text-centre, .about-me .about-title h3, .our-team .section-hint, .contact_wrapper .about-holder {
-  text-align: center; }
+.text-centre, .about-me .about-title h3, .our-team .section-hint, .contact_wrapper .about-holder .about-decorate-icons, .contact_wrapper .about-holder {
+  text-align: -webkit-center; }
 
 .rounded-circle {
   border-radius: 50%; }
@@ -1128,8 +1131,6 @@ h5 {
     width: 8em;
     height: 8em;
     z-index: 999; }
-  .single-news .featured-media .featured-media-item-circle {
-    background-image: url("../images/singlenews_1.jpg"); }
   .single-news .news-preview {
     margin-left: -31px; }
 
@@ -1469,10 +1470,19 @@ h5 {
       -moz-transform: rotateY(0);
       transform: rotateY(0); }
 
-.contact_wrapper .about-holder .about-img {
-  margin: 20px 0px; }
-  .contact_wrapper .about-holder .about-img img {
-    margin: 0 auto; }
+.contact_wrapper .about-holder {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+  .contact_wrapper .about-holder .about-content-entry {
+    text-align: -webkit-center;
+    margin-left: 16%;
+    padding-top: 0px;
+    line-height: 25px; }
+  .contact_wrapper .about-holder .about-img {
+    margin: 20px 0px; }
+    .contact_wrapper .about-holder .about-img img {
+      margin: 0 auto;
+      box-shadow: 10px 15px 11px 5px rgba(0, 0, 0, 0.18), 10px 14px 15px 10px rgba(0, 0, 0, 0.15);
+      visibility: visible; }
 
 .author .about-left {
   background-color: aliceblue; }
@@ -1897,6 +1907,12 @@ footer {
     left: 25px; }
   .portrait .flex-direction-nav {
     display: none; } }
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+  .detailed_article .preview {
+    height: 920px; } }
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+  .detailed_article .preview {
+    height: 920px; } }
 @media only screen and (max-width: 1440px) and (min-width: 900px) {
   .tp-banner {
     max-height: 450px !important; }
@@ -1905,7 +1921,13 @@ footer {
     top: 102% !important; }
 
   .author .after {
-    left: 14.5%; } }
+    left: 14.5%; }
+
+  .detailed_article .preview {
+    height: 920px; }
+
+  .detailed_article .preview {
+    height: 920px; } }
 @media only screen and (min-width: 992px) {
   .left {
     margin-top: 5px; }
