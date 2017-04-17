@@ -1563,6 +1563,10 @@ h5 {
                     padding:5px;
                 }
             }
+
+            .compact{
+                li{ line-height: 25px;}
+            }
         }
     }
 }
@@ -2303,9 +2307,11 @@ footer{
 //Laptop with MDPI Screen
 @media only screen and (max-width: 1280px) and (min-width: 800px){
     //set heigh for sample preview articles
-    .detailed_article {
-        .preview{ height: auto;}
-//        .preview{ height: 920px;}
+    .home{
+        .detailed_article {
+//            .preview{ height: auto;}
+            .preview{ height: 920px;}
+        }
     }
 }
 @media only screen and (max-width: 1440px) and (min-width: 900px){
@@ -2322,10 +2328,13 @@ footer{
     .detailed_article {
         .preview{ height: auto;}
     }
-     //set heigh for sample preview articles
-    .detailed_article {
-        .preview{ height: auto;}
+   .home{
+        .detailed_article {
+//            .preview{ height: auto;}
+            .preview{ height: 920px;}
+        }
     }
+
 }
 @media only screen and (min-width: 992px) {
     

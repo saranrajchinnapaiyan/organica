@@ -1373,6 +1373,8 @@ h5 {
     margin-left: 10px; }
     .grape .detailed_article .article-section ul li {
       padding: 5px; }
+  .grape .detailed_article .article-section .compact li {
+    line-height: 25px; }
 
 .photography .article-section figure img {
   height: 200px;
@@ -1913,8 +1915,8 @@ footer {
   .detailed_article .preview {
     height: auto; } }
 @media only screen and (max-width: 1280px) and (min-width: 800px) {
-  .detailed_article .preview {
-    height: auto; } }
+  .home .detailed_article .preview {
+    height: 920px; } }
 @media only screen and (max-width: 1440px) and (min-width: 900px) {
   .tp-banner {
     max-height: 450px !important; }
@@ -1928,8 +1930,8 @@ footer {
   .detailed_article .preview {
     height: auto; }
 
-  .detailed_article .preview {
-    height: auto; } }
+  .home .detailed_article .preview {
+    height: 920px; } }
 @media only screen and (min-width: 992px) {
   .left {
     margin-top: 5px; }
