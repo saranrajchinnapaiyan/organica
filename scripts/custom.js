@@ -220,6 +220,7 @@ $(document).ready(function () {
             var self = this;
             var dom = $('.detailed_article').find('.article-body');
             $(dom).removeClass('container').addClass('container-fluid');
+            $(dom).find('.article-img').addClass('container-fluid');
         };
         Home.prototype.setIpadAlignment = function () {
             var self = this;

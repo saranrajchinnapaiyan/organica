@@ -1361,7 +1361,9 @@ h5 {
     font-family: inherit;
     font-weight: 500; }
 .grape .detailed_article .article-img img {
-  width: 99%; }
+  image-rendering: optimizeSpeed;
+  width: 60vw;
+  height: 55vh; }
 .grape .detailed_article .article-section {
   max-height: 880px;
   overflow-y: auto; }
@@ -1909,10 +1911,10 @@ footer {
     display: none; } }
 @media only screen and (max-width: 1920px) and (min-width: 1080px) {
   .detailed_article .preview {
-    height: 920px; } }
+    height: auto; } }
 @media only screen and (max-width: 1280px) and (min-width: 800px) {
   .detailed_article .preview {
-    height: 920px; } }
+    height: auto; } }
 @media only screen and (max-width: 1440px) and (min-width: 900px) {
   .tp-banner {
     max-height: 450px !important; }
@@ -1924,10 +1926,10 @@ footer {
     left: 14.5%; }
 
   .detailed_article .preview {
-    height: 920px; }
+    height: auto; }
 
   .detailed_article .preview {
-    height: 920px; } }
+    height: auto; } }
 @media only screen and (min-width: 992px) {
   .left {
     margin-top: 5px; }

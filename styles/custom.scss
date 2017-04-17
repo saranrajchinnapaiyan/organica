@@ -1539,7 +1539,10 @@ h5 {
         }
         .article-img{
             img{
-                width: 99%;
+                image-rendering: optimizeSpeed;
+                width: 60vw;
+                height: 55vh;
+//                width: 99%;
 //                height: 45vh;
             }
         }
@@ -2293,7 +2296,7 @@ footer{
     }
       //set heigh for sample preview articles
     .detailed_article {
-        .preview{ height: 920px;}
+        .preview{ height: auto;}
     }
 }
 
@@ -2301,7 +2304,8 @@ footer{
 @media only screen and (max-width: 1280px) and (min-width: 800px){
     //set heigh for sample preview articles
     .detailed_article {
-        .preview{ height: 920px;}
+        .preview{ height: auto;}
+//        .preview{ height: 920px;}
     }
 }
 @media only screen and (max-width: 1440px) and (min-width: 900px){
@@ -2316,11 +2320,11 @@ footer{
     }
     //set heigh for sample preview articles
     .detailed_article {
-        .preview{ height: 920px;}
+        .preview{ height: auto;}
     }
      //set heigh for sample preview articles
     .detailed_article {
-        .preview{ height: 920px;}
+        .preview{ height: auto;}
     }
 }
 @media only screen and (min-width: 992px) {

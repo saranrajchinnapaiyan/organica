@@ -263,7 +263,7 @@
 
 .featured-circle {
     position: absolute;
-    top: 120%;
+    top: 100%;
     right: 100%;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -430,8 +430,8 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    background: center center #111;
-    border: 3px solid #FFF;
+    background: center center #6ab42f;
+    border: 3px solid #716b6b;
     background-size: cover;
     cursor: pointer;
     transition: all .5s cubic-bezier(.86, 0, .07, 1);
@@ -446,6 +446,7 @@
     width: 101%;
     height: 101%
 }
+.image-loader-complete i{ position: relative; left:35px; top:30px; }
 
 .featured-media .featured-media-item .featured-media-item-circle .block-item-background .image-loader.image-loader-background.image-loader-complete {
     background-size: 105%
