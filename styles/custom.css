@@ -894,7 +894,6 @@ blockquote,
   position: relative;
   padding: 0; }
 
-.thank-you,
 .error-msg,
 .tp-bannertimer {
   display: none; }
@@ -1391,13 +1390,15 @@ h5 {
 .photography h3 {
   text-align: left; }
 
+.contact-us h1, .contact-us h3 {
+  color: #fff; }
 .contact-us .contact-bg {
   background: url("../images/contactus_bg.jpg") repeat; }
   .contact-us .contact-bg h2, .contact-us .contact-bg legend, .contact-us .contact-bg .contact {
     color: #fff; }
   .contact-us .contact-bg #contact-us {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 50vh; }
+    height: 75vh; }
   .contact-us .contact-bg .info {
     padding: 15px 15px 15px 0;
     font-size: 18px;
@@ -1555,7 +1556,8 @@ h5 {
       top: 1rem;
       font-family: inherit; }
     .author .biography ol li p {
-      width: 400px;
+      width: 250px;
+      word-break: break-all;
       margin-left: 10rem;
       color: white; }
   .author .biography .bg_1 {

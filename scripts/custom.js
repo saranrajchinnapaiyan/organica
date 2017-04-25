@@ -126,22 +126,27 @@ $(document).ready(function () {
             $("#loader").show();
             $("#contact-us .desc").hide();
             $("#loader").hide();
-            $("#contact-us .thank-you").css({"display": 'block !important', "color" : "#fff"});
-//            $.ajax({
-//                data : formObj,
-//                url: '/sendmail',
-//                dataType : 'json',
-//                type : 'POST',
-//                success : function(data){
-//                    $("#loader").hide();
+
+            $.ajax({
+                data : formObj,
+                url: '/sendmail',
+                dataType : 'json',
+                type : 'POST',
+                success : function(data){
+                    $("#loader").hide();
                         //TODO : Reset the form
-//                },
-//                fail : function(Error){
-//                    $("#loader").hide();
-//                    console.log(error);
+                },
+                error:function (xhr, ajaxOptions, thrownError){
+                    if(xhr.status==404) {
+                        $("#loader").show().hide(250);
+                        console.log(xhr);
+                        $('#contact-us-form')[0].reset();
+                        $('#checkbox1').prop('checked',false);
+                        $('#contact-us').find('.thank-you').show();
                         //TODO : show error msg for user
-//                },
-//            });
+                    }
+                },
+            });
 
 
         };
@@ -329,6 +334,7 @@ $(document).ready(function () {
             $('.article-section,body,html').mCustomScrollbar({
                 theme: "dark-3"
                 , alwaysTriggerOffsets: false
+                , mouseWheelPixels: 250
                 , scrollButtons: {
                     enable: true
                 }

@@ -898,7 +898,6 @@ blockquote,
   position: relative;
   padding: 0; }
 
-.thank-you,
 .error-msg,
 .tp-bannertimer {
   display: none;
@@ -1596,6 +1595,9 @@ h5 {
 
 //Contact us
 .contact-us{
+    h1,h3{
+        color: #fff;
+    }
     .contact-bg{
         background: url('../images/contactus_bg.jpg') repeat;
         h2, legend, .contact{
@@ -1603,7 +1605,7 @@ h5 {
         }
         #contact-us{
             background-color: rgba(0,0,0,.7);
-            height: 50vh;
+            height: 75vh;
         }
         .info{
             padding: 15px 15px 15px 0;
@@ -1622,6 +1624,8 @@ h5 {
         position:fixed;
     }
 }
+
+
 
 //Set Rotate Image
 .setImgRotate {
@@ -1822,7 +1826,8 @@ h5 {
                             font-family: inherit;
                     }
                     p{
-                        width: 400px;
+                        width: 250px;
+                        word-break: break-all;
                         margin-left: 10rem;
                         color: rgb(255, 255, 255);
                     }

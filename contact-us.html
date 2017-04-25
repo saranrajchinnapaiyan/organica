@@ -83,7 +83,7 @@
                                                 <!-- for menus https://www.tescoliving.com/home-and-garden#mQQPaBd322hSbAHk.97/                                                -->
                                                 <!-- for menus http://www.livestrong.com/article/205173-examples-of-organic-food-products/                                                -->
                                                 <ul class="nav navbar-nav navbar-right">
-                                                    <li class="dropdown has-submenu"> <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>
+                                                    <li class="dropdown has-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home & Garden <b class="fa fa-angle-down"></b></a>
                                                         <ul class="dropdown-menu start-left" id="" role="menu">
                                                             <li><a href="garden/how-to-start-home-garden.html" title="How to Start a Home Garden">How to Start a Home Garden</a></li>
                                                             <!--<li><a href="garden/importance-of-home-garden.html" title="Importance of Home Garden" >Importance of Home Garden</a></li>-->
@@ -121,7 +121,7 @@
                                                         </ul>
                                                     </li>
                                                     <li><a href="about.html">About</a></li>
-                                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                                    <li><a href="contact-us.html" class="active">Contact Us</a></li>
                                                 </ul>
                                             </div>
                                             <!-- end navbar-cell -->
@@ -135,14 +135,17 @@
             </div>
         </div>
     </header>
-    <div itemscope itemtype="http://schema.org/Person">
-       <span itemprop="name">Saran Raj</span>
-       <span itemprop="company">iBeingHuman as Info provinding Co.</span>
-       <span itemprop="tel">+91 9994485953</span>
-       <a itemprop="email" href="mailto:joe.doe@example.com">saranraj_c@yahoo.com</a>
-    </div>
+    <script type='application/ld+json'>
+        {
+          "@context": "http://www.schema.org",
+          "@type": "WebSite",
+          "name": "ibeingHuman",
+          "alternateName": "beinghuman",
+          "url": "www.ibeinghuman.com"
+        }
+     </script>
 
-   
+
     <!--    Detailed Articles   -->
     <!--    http://mdbootstrap.com/sections/magazine-sections/ -->
     <section class="container mask contact">
@@ -237,6 +240,7 @@
             $('body').delay(500).css({
                 'overflow': 'visible'
             });
+            $('.thank-you').hide();
             
         });   
         $(document).ready(function() { //to zoom in animation effect
