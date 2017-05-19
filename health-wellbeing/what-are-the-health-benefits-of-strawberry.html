@@ -27,6 +27,14 @@
     <link rel="stylesheet" href="../styles/vertical.news.slider.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="../styles/custom.css">
+
+    <meta property="fb:app_id" content="290230658076387" />
+    <meta property=og:site_name content=iBeingHuman.com>
+    <meta property=og:url content=http://www.ibeinghuman.com />
+    <meta property=og:type content=article />
+    <meta property=og:title content=iBeingHuman />
+    <meta property=og:description content="10 Best Benefits and Uses Of Strawberry For Skin, Hair and Health|ibeinghuman.com" />
+    <meta property=og:image content=http://www.ibeinghuman.com/images/flexlslider_thumb_strawberry.jpg />
 </head>
 
 <body>
@@ -397,7 +405,16 @@
    <footer class="footer">
         <div class="social-section">
             <ul>
-                <li><a class="btn-fb btn" href="javascript:void(0)" onclick="Home.prototype.fbShare()"><i class="fa fa-facebook left"></i> &nbsp;&nbsp;Facebook</a></li>
+                 <li>
+                     <a class="btn-fb btn"
+                       href="#"
+                       onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+                                'facebook-share-dialog',
+                                'width=626,height=436');
+                                return false;">
+                        <i class="fa fa-facebook left"></i>Facebook
+                    </a>
+                </li>
                 <li><a class="btn-tw btn" href="#"><i class="fa fa-twitter left"></i> Twitter &nbsp;</a></li>
                 <li><a class="btn-gplus btn" href="#"><i class="fa fa-google-plus left"></i> Google+ </a></li>
                 <li><a class="btn-li btn" href="#"><i class="fa fa-linkedin left"></i> LinkedIn </a></li>
@@ -425,9 +442,9 @@
 
     <script>
         $(window).load(function() {
-            $('#loader').delay(1400).fadeOut('slow');
-            $('#loader-container').delay(400).fadeOut('slow');
-            $('body').delay(500).css({
+            $('#loader').delay(200).fadeOut('slow');
+            $('#loader-container').delay(200).fadeOut('slow');
+            $('body').delay(200).css({
                 'overflow': 'visible'
             });
 

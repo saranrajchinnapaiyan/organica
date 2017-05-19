@@ -22,19 +22,51 @@
     <link rel="stylesheet" href="styles/settings.css">
     <link rel="stylesheet" href="styles/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="styles/flexslider.css">    
+<!--
     <link rel="stylesheet" href="styles/jquery.fancyboxGall.css">
     <link rel="stylesheet" href="styles/jquery.jquery.fancybox-thumbs.css">
+-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body class="contact-bg" >
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+                FB.init({
+                  appId      : '290230658076387',
+                  xfbml      : true,
+                  version    : 'v2.9'
+                });
+                FB.Event.subscribe('xfbml.render', function() {
+                    jQuery('.fb-messenger-loading').detach()
+                });
+              };
+        (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+
+//    (function(d, s, id) {
+//      var js, fjs = d.getElementsByTagName(s)[0];
+//      if (d.getElementById(id)) return;
+//      js = d.createElement(s); js.id = id;
+//      js.src = "//connect.facebook.net/en_US/sdk.js#&version=v2.9&appId=290230658076387";
+//      fjs.parentNode.insertBefore(js, fjs);
+//    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!--http://www.spotify-thedrop.com/-->
     <!--http://www.crit-research.it/-->
     <!--welcome video for about http://www.yaseralsiksik.com/-->
     <!--For Article https://www.tescoliving.com/#FKzCwzIXSlhwoGXv.97-->
     <!--For Article http://demo.themeruby.com/?theme=maple-->
     <!--For Carousals http://cssslider.com/bootstrap-carousel-8.html-->
+    <div class="fb-comments" data-href="http://ibeinghuman.com" data-numposts="5"></div>
     <div id="loader">
         <div class="loader-container">
             <img src="images/load.gif" alt="" class="loading spinner">
@@ -54,7 +86,7 @@
             </div>
         </div>
     </div>
-   <header>
+    <header>
         <div class="header">
             <div class="container">
                 <div class="row row-mb5">
@@ -136,26 +168,28 @@
             </div>
         </div>
     </header>
+    <div class="fb-comments" data-href="http://ibeinghuman.com/about.html" data-width="560" data-numposts="5"></div>
    
     <!--    Detailed Articles   -->
     <!--    http://mdbootstrap.com/sections/magazine-sections/ -->
     <!--    http://ordasoft.com/demo.php?view=pc&t=Writer-->
     <!--    http://www.webdesignerdepot.com/2015/02/3-cool-css3-image-hover-effects/-->
     <!--    https://themeforest.net/item/engage-creative-multipurpose-html-theme/14964383?ref=Bereza-->
-    <section class="container-fluid mask about-div">
+    <section class="row container-fluid mask about-div ">
         <div class="container col-lg-8 col-md-8 col-sm-8 col-xs-12 about-left">
                 <div class="cover">
                     <figure>
-                        <img class="w100" src="images/1_banner.jpg" alt="" />
+<!--                        <img class="w100" src="images/1_banner.jpg" alt="" />-->
+                        <img class="w100" src="images/about_bg.jpg" alt="" />
                     </figure>
                 </div>
                 <div class="intro">
-                    <div class="welcome">
+                    <div class="welcome col-md-12">
                         <h1 itemprop="name">About SARAN - the User Interface devloper.</h1>
                         <p itemprop="description">Saran is A Group Of Professional Web Designers, Software Developers, Digital Marketers And Seo Experts. We Provide Awesome Web Designing, Software Development And SEO Services In. We Are Using Latest Technologies Such As HTML5, CSS3, Jquery, Ajex, Bootstrape And Many Others Technologies To Make A Website Fast, Responsive And Attractive.</p>
                     </div>
                 </div>
-                <div class="gallery">
+                <div class="gallery" style="visibility:hidden">
                     <h2>Gallery</h2>
                     <div class="moduletable">
                         <div class="custom">
@@ -248,42 +282,46 @@
                     </div>
                 </div>
             </div>
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 about-right">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 about-right">
                 <div class="about-sidebar-right">
                     <div class="biography">
                         <p class="bio-title">BioGraphy</p>
                         <ol class="profile-time-line">
-                            <li class="bg_1">
+                            <li class="bg_born">
                                 <p class="time">1990</p>
-                                <p class="bio-hint">Was born here andborn here and restbornborn here and rest here and restborn here and here and restborn here and rest rest is history</p>
+                                <p class="bio-hint">Was born in a village Near Ambur town, vellore Dt, Tamilnadu</p>
                             </li>
                             <span class="after"></span>
-                            <li class="bg_1">
-                                <p class="time">2007-2010</p>
-                                <p class="bio-hint">Was born here and restborn here and reborn here and reststborn here and restborn here and here and restborn here and rest is history</p>
+                            <li class="bg_ug">
+                                <p class="time">2010 - Graduate. </p>
+                                <p class="bio-hint">Undergone a Bachelore degree in Computer Application, Thiruvalluvar University, Vellore.</p>
                             </li>
-                            <li class="bg_1">
-                                <p class="time">2010-2013</p>
-                                <p class="bio-hint">Was born here and rborn here andborn here and restborn here and rest restborn here and  and restborn here and restest is history</p>
+                            <li class="bg_pg">
+                                <p class="time">2013 - Post Graduate. </p>
+                                <p class="bio-hint">Undergone a Post Graduate in Computer Application from Anna University, Chennai.</p>
                             </li>
-                            <li class="bg_1">
-                                <p class="time">2013-2015</p>
-                                <p class="bio-hint">Was born here and reborn hborn here and restborn here and restere and restborn here and restborn here and restborn here and restborn here and restst is history</p>
+                            <li class="bg_photon">
+                                <p class="time">2013 - into IT</p>
+                                <p class="bio-hint">After some intervals with lot of strugles, got an oppurtunity as a Trainee Software Engineer.</p>
                             </li>
-                            <li class="bg_1">
-                                <p class="time">2015-present</p>
-                                <p class="bio-hint">Was born here and reborn here and restborn here and restborn here and restborn here and restborn here and restborn here and restborn here and restst is history</p>
+                            <li class="bg_tavant">
+                                <p class="time">Present </p>
+                                <p class="bio-hint">Working as a Senior User Interface Developer , Bangalore( <b>silicon valley of India.</b> )</p>
                             </li>
                         </ol>
                     </div>
                 </div>
             </div>
     </section>
+    <section class="row container-fluid">
+
+    </section>
     <footer class="footer"></footer>
     <!-- JavaScript -->
     <script type="text/javascript" src="scripts/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/jquery-ui.js"></script>
-    <script type="text/javascript" src="scripts/bootstrap.js"></script>    
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js"></script>
     <script type="text/javascript" src="scripts/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="http://cssslider.com/sliders/demo-8/engine1/gestures.js"></script>

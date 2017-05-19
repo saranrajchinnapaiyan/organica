@@ -2,6 +2,9 @@ $(document).ready(function () {
     $the_post		  = jQuery('.the-post'),
     $window           = jQuery(window),
 
+    //On readuy events
+
+
     $("#sendMail").on('click', function () {
         var self = this;
         var myObj = {};
@@ -138,7 +141,7 @@ $(document).ready(function () {
                 },
                 error:function (xhr, ajaxOptions, thrownError){
                     if(xhr.status==404) {
-                        $("#loader").show().hide(250);
+                        $("#loader").show().hide(2500);
                         console.log(xhr);
                         $('#contact-us-form')[0].reset();
                         $('#checkbox1').prop('checked',false);
@@ -264,13 +267,6 @@ $(document).ready(function () {
             });
             Home.prototype.setAccordionTabReadMoreAnchor();
         };
-        Home.prototype.fbShare = function(url){
-//              FB.ui({
-//                method: 'share',
-//                display: 'popup',
-//                href: 'https://ibeinghuman.herokuapp.com/health-wellbeing/what-are-the-health-benefits-of-apple.html',
-//              }, function(response){});
-        };
         Home.prototype.setProgressIndicator = function(){
 //            var value = $(window).scrollTop();
 //            $('progress').attr('value', value);
@@ -292,9 +288,11 @@ $(document).ready(function () {
                 $(dom).text(m_names[curr_month] + "-" + (curr_date - 2) + "-" + curr_year);
         };
         Home.prototype.deviceAlignment = function(){
+
             var self = this;
-            if(self.isMobile.any())
+            if(self.isMobile.any()){
                 $('.intro-articles').addClass('padd0');
+            }
         };
         Home.prototype.setReaderIndicator = function(){
             console.log('indicator scrolling');
@@ -313,18 +311,20 @@ $(document).ready(function () {
         };
 
         Home.prototype.fbShare = function (url) {
-            //              FB.ui({
-            //                method: 'share',
-            //                display: 'popup',
-            //                href: 'https://ibeinghuman.herokuapp.com/health-wellbeing/what-are-the-health-benefits-of-apple.html',
-            //              }, function(response){});
-            //coupon page facebook share.
-            var h = 250;
-            var w = 600;
-            var left = (screen.width / 2) - (w / 2);
-            var top = (screen.height / 2) - (h / 2);
-            newwindow = window.open('http://www.facebook.com/sharer.php?u=https://ibeinghuman.herokuapp.com/health-wellbeing/what-are-the-health-benefits-of-apple.html', 'name', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
-            //if (window.parent.window.focus) {newwindow.focus()} //window.parent.newwindow.focus();
+            $('.fb-share').on('click',function(){
+              FB.ui({
+                method: 'share',
+                display: 'popup',
+                href: 'https://www.ibeinghuman.com/index.html',
+              }, function(response){});
+                //coupon page facebook share.
+                var h = 250;
+                var w = 600;
+                var left = (screen.width / 2) - (w / 2);
+                var top = (screen.height / 2) - (h / 2);
+                newwindow = window.open('http://www.facebook.com/sharer.php?u=https://ibeinghuman.com/index.html', 'name', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+                //if (window.parent.window.focus) {newwindow.focus()} //window.parent.newwindow.focus();
+            });
         };
         Home.prototype.setmCustomScrollBar = function () {
             var self = this;
@@ -353,6 +353,7 @@ $(document).ready(function () {
             var dom = $('.detailed_article .right');
             $(dom).find('.col-md-6:first').addClass('padd-r-0');
             $(dom).find('.col-md-6:last').addClass('padd-l-0');
+            $('.mCSB_inside>.mCSB_container').addClass('marg-r-0');
         };
         Home.prototype.addClassToFooterSection = function () {
             var self = this;
@@ -383,6 +384,7 @@ $(document).ready(function () {
             self.addClasstoDetailedArticleView();
             self.addClassToArticlePreview();
             self.setArticleDate();
+            self.fbShare();
             //self.setReaderIndicator();
             //self.setProgressIndicator();
 

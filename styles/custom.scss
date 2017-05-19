@@ -157,6 +157,7 @@ ol li {
     border-left: 1px solid #999;
     margin-left:10px;
 }
+.marg-r-0{ margin-right: 0 !important;}
 .marg-t20{ margin-top:20px; }
 .marg-t10{ margin-top:10px; }
 .marg-b10{ margin-bottom:10px }
@@ -1758,7 +1759,10 @@ h5 {
     .welcome{
         text-align: center;
         margin: 0 auto 20px;
-        width: 720px;
+//        width: 720px;
+        h1{
+            font-family: inherit;
+        }
     }
 
     .biography{
@@ -1819,7 +1823,7 @@ h5 {
                         margin-top: 140px;
                     .time{
                             color: rgb(255, 255, 255);
-                            font-size: 30px;
+                            font-size: 24px;
                             margin-left: 10rem;
                             position: relative;
                             top: 1rem;
@@ -1827,11 +1831,41 @@ h5 {
                     }
                     p{
                         width: 250px;
-                        word-break: break-all;
+                        word-break: normal;
                         margin-left: 10rem;
                         color: rgb(255, 255, 255);
                     }
 
+        }
+        .bg_born {
+                background: url('../images/born.jpg') no-repeat -20px -22px;
+                background-size: contain;
+                height: 135px;
+                background-size: 130%;
+        }
+        .bg_tavant {
+                background: url('../images/tavant.jpeg') no-repeat -20px -22px;
+                background-size: contain;
+                height: 135px;
+                background-size: 130%;
+        }
+        .bg_photon {
+                background: url('../images/photon.JPEG') no-repeat -20px -22px;
+                background-size: contain;
+                height: 135px;
+                background-size: 130%;
+            }
+        .bg_pg {
+            background: url('../images/graduate_2013.jpg') no-repeat -18px -21px;
+            background-size: contain;
+            height: 135px;
+            background-size: 130%;
+        }
+        .bg_ug {
+            background: url('../images/graduate_2010.jpg') no-repeat -18px -21px;
+            background-size: contain;
+            height: 135px;
+            background-size: 130%;
         }
         .bg_1 {
                 background: url('../images/singlenews_1.jpg') repeat;
@@ -2297,11 +2331,22 @@ footer{
     
 }
 //Laptop with HiDPi Screen
-@media only screen and (max-width: 1920px) and (min-width: 1080px){  //Bigger screen
+@media only screen and (max-width: 1440px) and (min-width: 1080px){  //Bigger screen
      .author{
         .biography{
             .after{}
+            .bg_born, .bg_pg, .bg_photon, .bg_tavant, .bg_ug{ height: 95px;}
+            ol{
+                li{
+                     .time, p{ margin-left: 7rem; }
+                }
+                .time{ top: 0rem !important;}
+            }
+            .bg_ug{background-position: -12px -15px;}
+            .bg_photon{background-position: -13px -16px;}
+            .bg_tavant{background-position: -10px -15px;}
         }
+
     }
       //set heigh for sample preview articles
     .detailed_article {
@@ -2316,6 +2361,20 @@ footer{
         .detailed_article {
 //            .preview{ height: auto;}
             .preview{ height: 920px;}
+        }
+    }
+    .author{
+        .biography{
+            ol{
+                li{
+                    .time, p{ margin-left: 6rem; }
+                }
+                .time{ top: 0rem !important;}
+            }
+            .bg_born, .bg_pg, .bg_photon, .bg_tavant, .bg_ug{ height: 85px;}
+            .bg_ug{ background-position:-10px -10px; }
+            .bg_photon{ background-size: 125%; background-position: -9px -10px; }
+            .bg_tavant{ background-position: -10px; }
         }
     }
 }
@@ -2431,6 +2490,13 @@ footer{
     }
     .author{
         .biography{
+            ol{
+                li.bg_born{
+                    width: 20%;
+                    height: 35px;
+                    background: none;
+                }
+            }
             .after{ left:16.5%;}
         }
     }
@@ -2481,6 +2547,17 @@ footer{
     .author{
         .biography{
             .after{left:16.5%;}
+            ol{
+                li{
+                    .time, p{ margin-left: 5rem; }
+                }
+                .time{ top: 0rem !important;}
+            }
+            .bg_born, .bg_pg, .bg_photon, .bg_tavant, .bg_ug{ height: 85px;}
+            .bg_ug{ background-position:-10px -10px; }
+            .bg_photon{ background-size: 125%; background-position: -9px -10px; }
+            .bg_tavant{ background-position: -10px; }
+            .bg_born{ background-position: -10px 1px; }
         }
     }
 }
@@ -2520,6 +2597,16 @@ footer{
     .author{
         .biography{
             .after{left:15.5%;}
+            ol{
+                li{
+                    .time, p{ margin-left: 6rem; }
+                }
+                .time{ top: 0rem !important;}
+            }
+            .bg_born, .bg_pg, .bg_photon, .bg_tavant, .bg_ug{ height: 85px;}
+            .bg_ug{ background-position:-10px -10px; }
+            .bg_photon{ background-size: 125%; background-position: -9px -10px; }
+            .bg_tavant{ background-position: -10px; }
         }
     }
 }
@@ -2537,6 +2624,7 @@ footer{
         }
 
     .author{
+        .welcome{ width: auto;}
         .biography{
             .after{left:12.5%;}
         }

@@ -151,6 +151,9 @@ ol li {
   border-left: 1px solid #999;
   margin-left: 10px; }
 
+.marg-r-0 {
+  margin-right: 0 !important; }
+
 .marg-t20, .contact_wrapper {
   margin-top: 20px; }
 
@@ -1503,8 +1506,9 @@ h5 {
   position: relative; }
 .author .welcome {
   text-align: center;
-  margin: 0 auto 20px;
-  width: 720px; }
+  margin: 0 auto 20px; }
+  .author .welcome h1 {
+    font-family: inherit; }
 .author .biography {
   background: #191919; }
   .author .biography .timeline {
@@ -1550,16 +1554,41 @@ h5 {
     margin-top: 140px; }
     .author .biography ol li .time {
       color: white;
-      font-size: 30px;
+      font-size: 24px;
       margin-left: 10rem;
       position: relative;
       top: 1rem;
       font-family: inherit; }
     .author .biography ol li p {
       width: 250px;
-      word-break: break-all;
+      word-break: normal;
       margin-left: 10rem;
       color: white; }
+  .author .biography .bg_born {
+    background: url("../images/born.jpg") no-repeat -20px -22px;
+    background-size: contain;
+    height: 135px;
+    background-size: 130%; }
+  .author .biography .bg_tavant {
+    background: url("../images/tavant.jpeg") no-repeat -20px -22px;
+    background-size: contain;
+    height: 135px;
+    background-size: 130%; }
+  .author .biography .bg_photon {
+    background: url("../images/photon.JPEG") no-repeat -20px -22px;
+    background-size: contain;
+    height: 135px;
+    background-size: 130%; }
+  .author .biography .bg_pg {
+    background: url("../images/graduate_2013.jpg") no-repeat -18px -21px;
+    background-size: contain;
+    height: 135px;
+    background-size: 130%; }
+  .author .biography .bg_ug {
+    background: url("../images/graduate_2010.jpg") no-repeat -18px -21px;
+    background-size: contain;
+    height: 135px;
+    background-size: 130%; }
   .author .biography .bg_1 {
     background: url("../images/singlenews_1.jpg") repeat;
     background-size: contain;
@@ -1913,12 +1942,39 @@ footer {
     left: 25px; }
   .portrait .flex-direction-nav {
     display: none; } }
-@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+@media only screen and (max-width: 1440px) and (min-width: 1080px) {
+  .author .biography .bg_born, .author .biography .bg_pg, .author .biography .bg_photon, .author .biography .bg_tavant, .author .biography .bg_ug {
+    height: 95px; }
+  .author .biography ol li .time, .author .biography ol li p {
+    margin-left: 7rem; }
+  .author .biography ol .time {
+    top: 0rem !important; }
+  .author .biography .bg_ug {
+    background-position: -12px -15px; }
+  .author .biography .bg_photon {
+    background-position: -13px -16px; }
+  .author .biography .bg_tavant {
+    background-position: -10px -15px; }
+
   .detailed_article .preview {
     height: auto; } }
 @media only screen and (max-width: 1280px) and (min-width: 800px) {
   .home .detailed_article .preview {
-    height: 920px; } }
+    height: 920px; }
+
+  .author .biography ol li .time, .author .biography ol li p {
+    margin-left: 6rem; }
+  .author .biography ol .time {
+    top: 0rem !important; }
+  .author .biography .bg_born, .author .biography .bg_pg, .author .biography .bg_photon, .author .biography .bg_tavant, .author .biography .bg_ug {
+    height: 85px; }
+  .author .biography .bg_ug {
+    background-position: -10px -10px; }
+  .author .biography .bg_photon {
+    background-size: 125%;
+    background-position: -9px -10px; }
+  .author .biography .bg_tavant {
+    background-position: -10px; } }
 @media only screen and (max-width: 1440px) and (min-width: 900px) {
   .tp-banner {
     max-height: 450px !important; }
@@ -2002,6 +2058,10 @@ footer {
   .detailed_article .left {
     margin-top: 5px; }
 
+  .author .biography ol li.bg_born {
+    width: 20%;
+    height: 35px;
+    background: none; }
   .author .biography .after {
     left: 16.5%; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
@@ -2020,7 +2080,22 @@ footer {
     left: 13%; } }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   .author .biography .after {
-    left: 16.5%; } }
+    left: 16.5%; }
+  .author .biography ol li .time, .author .biography ol li p {
+    margin-left: 5rem; }
+  .author .biography ol .time {
+    top: 0rem !important; }
+  .author .biography .bg_born, .author .biography .bg_pg, .author .biography .bg_photon, .author .biography .bg_tavant, .author .biography .bg_ug {
+    height: 85px; }
+  .author .biography .bg_ug {
+    background-position: -10px -10px; }
+  .author .biography .bg_photon {
+    background-size: 125%;
+    background-position: -9px -10px; }
+  .author .biography .bg_tavant {
+    background-position: -10px; }
+  .author .biography .bg_born {
+    background-position: -10px 1px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .detailed_article .article-section ul li {
     line-height: 25px; }
@@ -2039,7 +2114,20 @@ footer {
       padding-bottom: 15%; }
 
   .author .biography .after {
-    left: 15.5%; } }
+    left: 15.5%; }
+  .author .biography ol li .time, .author .biography ol li p {
+    margin-left: 6rem; }
+  .author .biography ol .time {
+    top: 0rem !important; }
+  .author .biography .bg_born, .author .biography .bg_pg, .author .biography .bg_photon, .author .biography .bg_tavant, .author .biography .bg_ug {
+    height: 85px; }
+  .author .biography .bg_ug {
+    background-position: -10px -10px; }
+  .author .biography .bg_photon {
+    background-size: 125%;
+    background-position: -9px -10px; }
+  .author .biography .bg_tavant {
+    background-position: -10px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .our-team-detail .person {
     margin-bottom: 10%; }
@@ -2049,6 +2137,8 @@ footer {
   .news-data .article-desc {
     max-height: inherit; }
 
+  .author .welcome {
+    width: auto; }
   .author .biography .after {
     left: 12.5%; } }
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
